@@ -1,0 +1,962 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Block – spring system in SHM</title>
+  <metadata>
+  <md:content-id>m15753</md:content-id><md:title>Block – spring system in SHM</md:title>
+  <md:abstract/>
+  <md:uuid>d077607d-7b6e-4791-b948-1773775da452</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">Block – spring system presents an approximation of SHM. It is assumed that spring force follows Hooke’s law and there is no dissipating forces like friction or air drag. The arrangement consisting of spring with block attached at one end has many interesting variations. We analyze all such arrangements following certain basic steps to arrive at formulations for periodic attributes like time period and frequency etc.  
+</para>
+<para id="element-2">The first step is to drive an equation between force and displacement or between acceleration and displacement. We, then, use standard expression to determine time period and frequency. Broadly, we shall be working to analyze following variations consisting of a block and spring(s) :
+</para>
+<para id="element-3">
+<list id="list-2" list-type="bulleted">
+<item> Horizontal block – spring system </item>
+<item> Vertical block – spring system </item>
+<item> Block connected to springs in series </item>
+<item> Block in between two springs </item>
+<item> Block connected to springs in parallel </item>
+</list> 
+</para>
+<section id="section-1">
+<title>Horizontal block-spring system</title>
+<para id="element-4">The Hooke’s law governing an ideal spring relates spring force with displacement as :
+</para>
+<para id="element-5">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-6">
+<figure id="fig-6">
+<title> Horizontal block-spring system </title>
+<media id="id8825978" alt=""><image src="../../media/bs1.gif" mime-type="image/gif"/></media>
+<caption> The spring is stretched a bit and then let go to oscillate.</caption>
+</figure>
+</para>
+<para id="element-7">Combining with Newton’s second law,
+</para>
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>k</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-10">Now, comparing with SHM relation “
+<m:math>
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+”, we have :
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>k</m:mi>
+            <m:mi>m</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>m</m:mi>
+            <m:mi>k</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>k</m:mi>
+            <m:mi>m</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-12">In these expressions “m” and “k” represent inertia and spring factor respectively.  
+</para>
+</section>
+<section id="section-2">
+<title>Vertical block-spring system</title>
+<para id="element-13">Vertical block-spring system differs to horizontal arrangement in the application of gravitational force. In horizontal orientation, gravitational force is perpendicular to motion and as such it is not considered for the analysis. In vertical orientation, however, the spring is in extended position due to the weight of the block before the block is set in SHM. It is in equilibrium in the extended position under the action of gravitational and spring force.
+</para>
+<para id="element-14">Clearly, the center of oscillation is the position of equilibrium. The block oscillates about the extended position – not about the position of neutral spring length as in the case of horizontal arrangement. Let us consider that the spring is extended by a vertical length “
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>y</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+  </m:mrow>
+</m:math>
+” from neutral position when it is in equilibrium position. For a further extension “y” in spring, the spring force on the block is equal to the product of spring constant and total displacement from the neutral position, 
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>y</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-16">
+<figure id="fig-16">
+<title> Vertical block-spring system </title>
+<media id="id8900910" alt=""><image src="../../media/bs2.gif" mime-type="image/gif"/></media>
+<caption> The spring is stretched a bit from the equilibrium position and then let go to oscillate.</caption>
+</figure>
+</para>
+<para id="element-17">Note that we have considered downward displacement as positive. The spring force acting upward is opposite to displacement and hence negative. In this case, however, the net restoring force on the block is equal to the resultant of spring force acting upwards and gravity acting downward. Considering downward direction as positive,
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mtext>net</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>y</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-19">But, for equilibrium position, we have the following relation,
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-21">Substituting this relation in the expression of net restoring force, we have :
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mtext>net</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-23">The important point to realize here is that net restoring force is independent of gravity. It is equal to differential spring force for the additional extension – not the spring force for the total extension from the neutral position. Now, according to Newton’s second law of motion, the net restoring force is equal to the product of mass of the block and acceleration,
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mtext>net</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-25"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi>a</m:mi>
+        <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+  <m:mfrac>
+    <m:mi>k</m:mi>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>y</m:mi>
+  </m:mrow>
+  </m:mfrac>
+   </m:mrow>
+</m:math>
+
+</para>
+<para id="element-26">This relation on comparison with SHM equation “<m:math>
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>” yields same set of periodic expressions as in the case of horizontal block-spring arrangement :
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>k</m:mi>
+            <m:mi>m</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>m</m:mi>
+            <m:mi>k</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>k</m:mi>
+            <m:mi>m</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-28">In this case, however, we can obtain alternative expressions as well for the periodic attributes as spring force at equilibrium position is equal to the weight of the block, 
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-30">Dropping negative sign and rearranging,
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mi>m</m:mi>
+      <m:mi>k</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>y</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-32">Hence, the alternative expressions of periodic attributes are :
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>g</m:mi>
+            <m:mrow>
+              <m:msub>
+                <m:mi>y</m:mi>
+                <m:mn>0</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mi>y</m:mi>
+                <m:mn>0</m:mn>
+              </m:msub>
+            </m:mrow>
+            <m:mi>g</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>g</m:mi>
+            <m:mrow>
+              <m:msub>
+                <m:mi>y</m:mi>
+                <m:mn>0</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-34">Clearly, the extension of the spring owing to the weight of the block in vertical orientation has no impact on the periodic attributes of the SHM. One important difference, however, is that the center of oscillation does not correspond to the position of neutral spring configuration; rather it is shifted down by a vertical length given by :
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>k</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+<section id="section-3">
+<title>Block connected to springs in series </title>
+<para id="element-36">We consider two springs of different spring constants. An external force like gravity produces elongation in both springs simultaneously. Since spring is mass-less, spring force is same everywhere in two springs. This force, however, produces different elongations in two springs as stiffness of springs are different. Let “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” be the elongations in two springs. As discussed for the single spring, the net restoring force for each of the springs is given as :
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mtext>net</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-38">
+<figure id="fig-38">
+<title> Block connected to springs in series </title>
+<media id="id9876026" alt=""><image src="../../media/bs3.gif" mime-type="image/gif"/></media>
+<caption> The spring is stretched a bit from the equilibrium position and then let go to oscillate.</caption>
+</figure>
+</para>
+<para id="element-39">
+The total displacement of the block from equilibrium position is :
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mrow>
+            <m:mtext>net</m:mtext>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>F</m:mi>
+        <m:mrow>
+          <m:mtext>net</m:mtext>
+        </m:mrow>
+      </m:msub>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-41"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:msub>
+        <m:mi>F</m:mi>
+        <m:mrow>
+          <m:mtext>net</m:mtext>
+        </m:mrow>
+      </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-42">A comparison with the expression of extension of the single spring at equilibrium position reveals that spring constant of the arrangement of two springs is equivalent to a single spring whose spring constant is given by :
+</para>
+<para id="element-43"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-44">This relationship can also be expressed as :
+</para>
+<para id="element-45"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>k</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-46">
+In the nutshell, we can consider the arrangement of two springs in series as a single spring of spring constant “k”, which is related to individual spring constants by above relation. Further, we can extend this concept to a number of springs by simply extending the relation as :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>k</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mo>…</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-48">
+The periodic attributes are given by the same expressions, which are valid for oscillation of single spring. We only need to use equivalent spring constant in the expression.
+</para>
+</section>
+<section id="section-4">
+<title>Block in between two springs </title>
+<para id="element-49">In this arrangement, block is tied in between two springs as shown in the figure. In order to analyze oscillation, we consider oscillation from the reference position of equilibrium. Let the block is displaced slightly in downward direction (reasoning is similar if block is displaced upward). The upper spring is stretched, whereas the lower spring is compressed. The spring forces due to either of the springs act in the upward direction. The net downward displacement is related to net restoring force as :
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mtext>net</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-51">
+<figure id="fig-51">
+<title> Block in between two springs </title>
+<media id="id10003358" alt=""><image src="../../media/bs4.gif" mime-type="image/gif"/></media>
+<caption> The spring is stretched a bit from the equilibrium position and then let go to oscillate.</caption>
+</figure>
+</para>
+<para id="element-52">A comparison with the expression of extension of the single spring reveals that spring constant of the arrangement of two springs is equivalent to a single spring whose spring constant is given by :
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-54">Clearly, the periodic attributes are given by the same expressions, which are valid for oscillation of single spring. We only need to use equivalent spring constant in the expression.
+</para>
+</section>
+<section id="section-5">
+<title>Block connected to springs in parallel</title>
+<para id="element-55">Here, we consider a block is suspended horizontally with the help of two parallel springs of different spring constants as shown in the figure. When the block is pulled slightly, it oscillates about the equilibrium position. The net restoring force on the block is :
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mtext>net</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">
+<figure id="fig-57">
+<title> Block connected to springs in parallel </title>
+<media id="id9930592" alt=""><image src="../../media/bs5.gif" mime-type="image/gif"/></media>
+<caption> The spring is stretched a bit from the equilibrium position and then let go to oscillate.</caption>
+</figure>
+</para>
+<para id="element-58">A comparison with the expression of extension of the single spring reveals that spring constant of the arrangement of two springs is equivalent to a single spring whose spring constant is given by :
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">
+Again, the periodic attributes are given by the same expressions, which are valid for oscillation of single spring. We only need to use equivalent spring constant in the expression.
+</para>
+</section>
+  </content>
+  
+</document>

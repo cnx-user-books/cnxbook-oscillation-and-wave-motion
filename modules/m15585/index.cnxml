@@ -1,0 +1,1033 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Simple and physical pendulum</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>be0cb0ec-868c-496b-8a27-13a178caf61b</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Simple pendulum is an ideal oscillatory mechanism, which executes SHM. The restoring mechanism, in this case, is provided by gravitational force. Simple pendulum is simple in construction. It consists of a "particle" mass hanging from a string. The other end of the string is fixed. The overriding requirement of simple pendulum, executing SHM, can be stated in two supplementary ways :
+</para>
+<para id="element-2">
+<list id="list-2" list-type="bulleted">
+<item> Mechanical energy of the oscillating system is conserved. </item>
+<item> The torque due to gravity (or angular acceleration) is proportional to negative of angular displacement. </item>
+</list>
+</para>
+<para id="element-3">Fulfillment of the requirements, as stated, imposes certain limitations on the construction and working of simple pendulum. It can be easily inferred that we probably can not fulfill the requirement stringently, but can only approximate at the best. In this module, therefore, we shall first analyze the motion for an ideal case and then deduce conditions, which need to be fulfilled to realize ideal case to the best possible extent.
+</para>
+<section id="section-1">
+<title>Motion of simple pendulum</title>
+<para id="element-4">There are two forces acting on the particle mass hanging from the string (called pendulum bob). One is the gravity (mg), which acts vertically downward. Other is the tension (T) in the string. In equilibrium position, the bob hangs in vertical position with zero resultant force : 
+</para>
+<para id="element-5">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-6">
+<figure id="fig-6">
+<title> Simple pendulum </title>
+<media id="idp129440" alt=""><image src="../../media/sp1.gif" mime-type="image/gif"/></media>
+<caption> Forces on the pendulum bob</caption>
+</figure>
+</para>
+<para id="element-7">At a displaced position, a net torque about the pivot point “O” acts on the pendulum bob which tends to restore its equilibrium position. In order to calculate net torque, we resolve gravity in two perpendicular components (i) mg cosθ along string and (ii) mg sinθ tangential to the path of motion. 
+</para>
+<para id="element-8">Together with tension and two components of gravity, there are three forces acting on the pendulum bob. The line of action of tension and the component of gravity along string passes through pivot point, “O”. Therefore, torque about pivot point due to these two forces is zero.  The torque on the pendulum bob is produced only by the tangential component of gravity. Hence, torque on the bob is :
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>τ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mtext>moment arm</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>X</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>Force</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>L</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>L</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">where "L" is the length of the string. We have introduced negative sign as torque is clockwise against the positive direction of displacement (anticlockwise). We can, now, use the relation “τ =Iα” to obtain the relation for angular acceleration :
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>τ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>L</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mi>I</m:mi>
+    </m:mfrac>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-13">Clearly, this equation is not in the form “<m:math>
+  <m:mrow>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>” so that pendulum bob can execute SHM. It is evident that if the requirement of SHM is to be met, then 
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">Is it possible? Not exactly, but approximately yes - if the angular displacement is a small measure. Let us check out few values using calculator :
+</para>
+<para id="element-16">
+<code display="block" id="idm219024">--------------------------------------------
+Degree       Radian            sine value
+--------------------------------------------
+0            0.0                0.0
+1            0.01746            0.017459
+2            0.034921           0.034914
+3            0.052381           0.052357
+4            0.069841           0.069785
+5            0.087302           0.087191
+--------------------------------------------
+</code>
+</para>
+<para id="element-17">For small angle, we can consider "<m:math>
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>≈</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>" as a good approximation. Hence,
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mi>I</m:mi>
+    </m:mfrac>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">We have just seen the condition that results from the requirement of SHM. This condition requires that angular amplitude of oscillation should be a small angle. 
+</para>
+<section id="section-1a">
+<title>Angular frequency</title>
+<para id="element-20">Comparing the equation obtained for angular acceleration with that of “<m:math>
+  <m:mrow>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>”, we have :
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mi>g</m:mi>
+              <m:mi>L</m:mi>
+            </m:mrow>
+            <m:mi>I</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">There is yet another aspect about moment of inertia that we need to discuss. Note that we have considered that bob is a point mass. In that case, 
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">
+and
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mi>g</m:mi>
+              <m:mi>L</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>g</m:mi>
+            <m:mi>L</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">We see that angular frequency is independent of mass. What happens if bob is not a point mass as in the case of real pendulum. In that case, angular frequency and other quantities dependent on angular frequency will be dependent on the MI of the bob – i.e. on shape, size, mass distribution etc.
+</para>
+<para id="element-27">We should understand that requirement of point mass arises due to the requirement of mass independent frequency of simple pendulum – not due to the requirement of SHM. In the nutshell, we summarize the requirement of simple pendulum that arises either due to the requirement of SHM or due to the requirement of mass independent frequency as :
+</para>
+<para id="element-28">
+<list id="list-28" list-type="bulleted"><item> The pivot is free of any energy loss due to friction. </item>
+<item> The string is un-strechable and mass-less. </item>
+<item> There is no other force (other than gravity) due to external agency.  </item>
+<item> The angular amplitude is small. </item>
+<item> The ratio of length and dimension of bob should be large so that bob is approximated as point.</item>
+</list>
+</para>
+</section>
+<section id="section-1b">
+<title>Time period and frequency</title>
+<para id="element-29">Time period of simple pendulum is obtained by applying defining equation as : 
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>L</m:mi>
+            <m:mi>g</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">Frequency of simple pendulum is obtained by apply defining equation as : 
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>g</m:mi>
+            <m:mi>L</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-2">
+<title>Special cases of simple pendulum</title>
+<para id="element-33">We have so far discussed a standard set up for the study of simple pendulum. In this section, we shall discuss certain special circumstances of simple pendulum. For example, we may be required to analyze motion of simple pendulum in accelerated frame of reference or we may be required to incorporate the effect of change in the length of simple pendulum. 
+</para>
+<section id="section-2a">
+<title>Second pendulum</title>
+<para id="element-34">A simple pendulum having time period of 2 second is called “second” pendulum. It is intuitive to analyze why it is 2 second - not 1 second. In pendulum watch, the pendulum is the driver of second hand. It drives second hand once (increasing the reading by 1 second) for every swing. Since there are two swings in one cycle, the time period of second pendulum is 2 seconds.
+</para>
+</section>
+<section id="section-2b">
+<title>Simple pendulum in accelerated frame</title>
+<para id="element-35">The time period of simple pendulum is affected by the acceleration of the frame of reference containing simple pendulum. We can carry out elaborate force or torque analysis in each case to determine time period of pendulum. However, we find that there is an easier way to deal with such situation. The analysis reveals that time period is governed by the “effective” acceleration or the “relative” acceleration given as :
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>g</m:mi>
+    </m:mstyle>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>g</m:mi>
+    </m:mstyle>
+    <m:mo>−</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>a</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">where <term>g’</term> is effective acceleration and “<term>a</term>” is acceleration of frame of reference (a≤g). We can evaluate this vector relation for different situations.
+</para>
+<para id="element-38"><term>Frame of reference is accelerating upwards</term>
+</para>
+<para id="element-39">Let us consider downward direction as positive. Referring left picture in the figure,
+</para>
+<para id="element-40">
+<figure id="fig-40">
+<title> Simple pendulum in accelerated frame </title>
+<media id="idm3543120" alt=""><image src="../../media/sp2.gif" mime-type="image/gif"/></media>
+<caption> The frame on left is accelerated up, whereas frame on the right is accelerated down.</caption>
+</figure>
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>L</m:mi>
+            <m:mrow>
+              <m:mi>g</m:mi>
+              <m:mo>′</m:mo>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>L</m:mi>
+            <m:mrow>
+              <m:mi>g</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>a</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43"><term>Frame of reference is accelerating downwards</term>
+</para>
+<para id="element-44">Let us consider downward direction as positive. Referring right picture in the figure above, 
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>L</m:mi>
+            <m:mrow>
+              <m:mi>g</m:mi>
+              <m:mo>′</m:mo>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>L</m:mi>
+            <m:mrow>
+              <m:mi>g</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>a</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">If the simple pendulum is falling freely, then a = g,
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>L</m:mi>
+            <m:mrow>
+              <m:mi>g</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>g</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mtext>undefined</m:mtext>
+  </m:mrow>
+</m:math>               
+</para>
+<para id="element-49">Thus, free falling pendulum will not oscillate.
+</para>
+<para id="element-50"><term>Frame of reference is moving in horizontal direction</term>
+</para>
+<para id="element-51">Horizontal direction is perpendicular to the vertical direction of gravity. Hence, magnitude of effective acceleration is given as : 
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>g</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>a</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>L</m:mi>
+            <m:mrow>
+              <m:mi>g</m:mi>
+              <m:mo>′</m:mo>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>L</m:mi>
+            <m:mrow>
+              <m:msqrt>
+                <m:mfenced>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>g</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mfenced>
+              </m:msqrt>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2c">
+<title>Change in length</title>
+<para id="element-54">The length of simple can change due to change in temperature. The change in length is given by :
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>L</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>α</m:mi>
+        <m:mi>Δ</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">Where “α” and “θ” are temperature coefficient and temperature respectively. 
+</para>
+<para id="element-57">We should be careful in using this relation in case when simple pendulum is driver of a clock. For example, an increase in temperature translates into increase in length, which in turn translates into an increase in time period. However, an increase in time period translates into loss of time on the scale of the watch. In the nutshell, watch will run slow.
+</para>
+</section>
+</section>
+<section id="section-3">
+<title>Physical pendulum</title>
+<para id="element-58">In this case, a rigid body – instead of point mass -  is pivoted to oscillate as shown in the figure. There is no requirement of string. As a result, there is no tension involved in this case. Besides these physical ramifications, the working of compound pendulum is essentially same as that of simple pendulum except in two important aspects :
+</para>
+<para id="element-59">
+<figure id="fig-59">
+<title> Physical pendulum </title>
+<media id="idm3960640" alt=""><image src="../../media/sp3.gif" mime-type="image/gif"/></media>
+<caption>Forces act through center of mass.</caption>
+</figure>
+</para>
+<para id="element-60">
+<list id="list-60" list-type="bulleted"><item> Gravity acts through center of mass of the rigid body. Hence, length of pendulum used in equation is equal to linear distance between pivot and center of mass (“h”). </item>
+<item> The moment of inertia of the rigid body about point suspension is not equal to "<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>" as in the case of simple pendulum. </item>
+</list>
+</para>
+<para id="element-61">The time period of compound pendulum, therefore, is given by :
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>I</m:mi>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mi>g</m:mi>
+              <m:mi>h</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">In case we know MI of the rigid body, we can evaluate above expression of time period for the physical pendulum. For illustration, let us consider a uniform rigid rod, pivoted from a frame as shown in the figure. Clearly, center of mass is at a distance “L/2” from the point of suspension :
+</para>
+<para id="element-472"><figure id="fig-472">
+<title> Physical pendulum </title>
+<media id="idm2473488" alt=""><image src="../../media/sp4.gif" mime-type="image/gif"/></media>
+<caption>Forces act through center of mass.</caption>
+</figure></para><para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">Now, MI of the rigid rod about its center is :
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>12</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-68">We are , however, required to evaluate MI of the rod about the point of suspension, i.e. “O”. Applying parallel axes theorem,
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>12</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>L</m:mi>
+            <m:mn>2</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+Putting in the equation of time period, we have :
+</para>
+<para id="element-71"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>I</m:mi>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mi>g</m:mi>
+              <m:mi>h</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>m</m:mi>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:mi>m</m:mi>
+              <m:mi>g</m:mi>
+              <m:mi>L</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+                <m:mi>L</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:mi>g</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">The important thing to note about this relation is that time period is still independent of mass of the rigid body. However, time period is not independent of mass distribution of the rigid body. A change in shape or size or change in mass distribution will change MI of the rigid body about point of suspension. This, in turn, will change time period.
+</para>
+<para id="element-73">Further, we should note that physical pendulum is an effective device to measure “g”. As a matter of fact, this device is used extensively in gravity surveys around the world. We only need to determine time period or frequency to determine the value of “g”. Squaring and rearranging,
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:msup>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-3a">
+<title>Point of oscillation</title>
+<para id="element-75">We can think of physical pendulum as if it were a simple pendulum. For this, we can consider the mass of the rigid body to be concentrated at a single point as in the case of simple pendulum such that time periods of two pendulums are same. Let this point be at a linear distance "<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>" from the point of suspension. Here,
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>I</m:mi>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mi>g</m:mi>
+              <m:mi>h</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mi>L</m:mi>
+                <m:mn>0</m:mn>
+              </m:msub>
+            </m:mrow>
+            <m:mi>g</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>L</m:mi>
+    <m:mi>o</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">
+The point defined by the vertical distance, "<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>", from the point of suspension is called point of oscillation of the physical pendulum. Clearly, point of oscillation will change if point of suspension is changed.
+</para>
+</section>
+</section>
+
+
+  </content>
+  
+</document>

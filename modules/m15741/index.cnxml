@@ -1,0 +1,2391 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Composition of harmonic motions</title>
+  <metadata>
+  <md:content-id>m15741</md:content-id><md:title>Composition of harmonic motions</md:title>
+  <md:abstract/>
+  <md:uuid>ce27a263-1003-4692-926f-bff2f38dc620</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">Composition, here, means combining more than one simple harmonic motion. However, this statement needs to be interpreted carefully. Every particle has only one motion at a time. Actually, we mean to combine two or more harmonic motions, which result from the operation of forces, each of which is individually capable of producing SHM. Therefore, it is actually combining SHMs, produced by forces operating on a “single” particle. 
+</para>
+<para id="element-2">Further, we need to emphasize one important limitation to our discussion. Our context is limited to combining effects of forces which produce SHMs of “same” frequency. 
+</para>
+<para id="element-3">We organize our study under two heads :
+</para>
+<para id="element-4">
+<list id="list-2" list-type="bulleted">
+<item> Composition of SHMs along same straight line. </item>
+<item> Composition of SHMs along two mutually perpendicular straight lines. </item>
+</list>
+</para>
+<section id="section-1">
+<title>Force analysis</title>
+<para id="element-5">The motion of a particle, acted upon by two or more forces, is governed by Newton’s second law. The situation, here, is no different except that each of the forces is characterized for being proportional to negative of displacement. This means that each of the forces, if left to act alone, would produce SHM. Nonetheless, we have seen that force is a vector quantity with the underlying characteristic that each force produces its effect independent of other force. 
+</para>
+<para id="element-6">The independence of a force to the presence of other forces makes our task easy to assess the net result. Let us consider the motion of a particle as if it is being worked alone by a single force. Let “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>r</m:mi>
+      </m:mstyle>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” be the position and velocity at a particular instant resulting from the action of this force. Now, let “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>r</m:mi>
+      </m:mstyle>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” be the position and velocity at a particular instant resulting from the action of the other force as if it is the only force working on the particle.
+</para>
+<para id="element-7">The resultant position and velocity vector, then, would simply be the vector additions of individual quantities. Hence, position and velocity of the particle, when operated simultaneously by two forces, would be :.
+</para>
+
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>r</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>r</m:mi>
+      </m:mstyle>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>r</m:mi>
+      </m:mstyle>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>v</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-11">These equations provide the general framework for studying motion that result from action of more than one force capable of producing SHM. 
+</para>
+</section>
+<section id="section-2">
+<title>Composition of SHMs along same straight line</title>
+<para id="element-12">Let us consider two SHM forces, <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ and <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>, acting along the same straight line. Let the displacements be given by two equations,
+</para>
+<para id="element-13">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-15">We have written two displacements which reflect a convenient general case. Amplitudes are different. At any given instant, one of the two SHMs is “ahead of” or “lags behind” other, depending on the sign of phase constant “φ”. As pointed out earlier, we have kept the angular frequency “ω” same for both SHMs. 
+</para>
+<para id="element-16">Now, we want to find the net displacement of the particle at any given instant. Referring to our earlier discussion, we can find net displacement by evaluating vector relation,
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>r</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>r</m:mi>
+      </m:mstyle>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>r</m:mi>
+      </m:mstyle>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-18">Since both SHMs are along the same straight line, we can drop the vector sign and can simply write this relation in the present context as :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ 
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-21">Expanding trigonometric function,
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-23">Segregating sine and cosine functions, keeping in mind that “φ” is constant :
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>cos</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>sin</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-25">
+The expressions in the brackets are constant. Let,
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-27">Substituting in the expression of displacement, we have :
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>C</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>D</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-29">Following standard analytical method, Let
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+    
+</para>
+<para id="element-31">Substituting in the expression of displacement again, we have :
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-34">
+This is the final expression of the composition of two SHMs in the same straight line. Clearly, the amplitude of resulting SHM is “A”. Also, the resulting SHM differs in phase with respect to either of the two SHMs. In particular, the phase of resulting SHM differs by an angle “θ” with respect of first SHM, whose displacement is given by “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+” We also note that frequency of the resulting SHM is same as either of two SHMs.
+</para>
+<section id="section-2a">
+<title>Phase constant</title>
+<para id="element-35">The phase constant of the resulting SHM is :
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>D</m:mi>
+      <m:mi>C</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>sin</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>cos</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+       
+</para>
+</section>
+<section id="section-2b">
+<title>Amplitude</title>
+<para id="element-37">
+The amplitude of the resultant harmonic motion is obtained solving substitutions made in the derivation.</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+    
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>C</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>D</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>A</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>A</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mi>cos</m:mi>
+              <m:mi>φ</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>A</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mi>sin</m:mi>
+              <m:mi>φ</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>A</m:mi>
+            <m:mn>1,2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:msup>
+            <m:mi>cos</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>φ</m:mi>
+          <m:mo>+</m:mo>
+          <m:mn>2</m:mn>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+          <m:mi>cos</m:mi>
+          <m:mi>φ</m:mi>
+          <m:mo>+</m:mo>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:msup>
+            <m:mi>sin</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>φ</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:mn>2</m:mn>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+          <m:mi>cos</m:mi>
+          <m:mi>φ</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+<section id="section-2c">
+<title>Important cases</title>
+<para id="element-42">We ,here, consider few interesting cases :
+</para>
+<section id="section-2c1">
+<title>1: Phase difference is zero</title>
+<para id="element-44">Two SHMs are in same phase. In this case, 
+<m:math>
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>0</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:mn>2</m:mn>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+          <m:mi>cos</m:mi>
+          <m:mi>φ</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:mn>2</m:mn>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:msup>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>A</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>A</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-47">If additionally <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+, then 
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+. Further, phase constant is given by :
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>D</m:mi>
+      <m:mi>C</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>sin</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>cos</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>sin</m:mi>
+        <m:msup>
+          <m:mn>0</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>0</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+       
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+<section id="section-2c2">
+<title>2: Phase difference is “π”</title>
+<para id="element-50">Two SHMs are opposite in phase. In this case, 
+<m:math>
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:mn>2</m:mn>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+          <m:mi>cos</m:mi>
+          <m:mi>φ</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>−</m:mo>
+          <m:mn>2</m:mn>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:msup>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>A</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>−</m:mo>
+            <m:msub>
+              <m:mi>A</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-53">The amplitude is a non-negative number. In order to reflect this aspect, we write amplitude in modulus form :
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>|</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-55">If additionally
+<m:math>
+  <m:mrow>
+
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+, then A = 0. In this case, the particle does not oscillate. Further, phase constant is given by :
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>D</m:mi>
+      <m:mi>C</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>sin</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>cos</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>sin</m:mi>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>cos</m:mi>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+      
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+</section>
+<section id="section-2d">
+<title>Composition by vector method</title>
+<para id="element-58">We have evaluated composition of two SHMs analytically. This has given us the detailed picture of how displacement of a particle takes place. In the nutshell, we find that resulting motion is also a SHM of same frequency as that of constituting SHMs. Besides, we are able to determine followings aspects of resulting SHM :
+</para>
+<para id="element-59">
+<list id="list-59" list-type="bulleted">
+<item> Displacement </item>
+<item> Amplitude of the resulting SHM </item>
+<item> Phase constant of the resulting SHM </item>
+</list> 
+</para>
+<para id="element-60">There is, however, an effective and more convenient alternative to determine all these aspects of SHM, using vector concept. The important thing to realize here is that amplitude can be associated with direction – apart from having magnitude. Its direction is qualified by the phase constant. 
+</para>
+<para id="element-61">
+The equation of amplitude, derived earlier, provides the basis of this assumption. If we look closely at the expression of resultant amplitude, then we realize that the expression actually represents sum of two vectors namely “
+<m:math>
+  <m:mrow>
+    <m:msub>
+
+        <m:mi>A</m:mi>
+
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+
+        <m:mi>A</m:mi>
+
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” at an angle “φ” as shown in the figure.
+</para>
+<para id="element-62">
+<figure id="fig-62">
+<title> Composition of two SHMs </title>
+<media id="id3857188" alt=""><image src="../../media/cs1.gif" mime-type="image/gif"/></media>
+<caption> The diagonal represents the resultant amplitude.</caption>
+</figure>
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:msubsup>
+            <m:mi>A</m:mi>
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:mn>2</m:mn>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:msub>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+          <m:mi>cos</m:mi>
+          <m:mi>φ</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-64">
+This understanding serves our purpose. If we know amplitudes of individual SHMs and the phase difference, then we can find amplitude of the resulting SHM directly using vector sum formula. It is also evident that vector method can be used to find the resulting phase difference. From the figure,
+</para>
+<para id="element-65"><m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+    <m:mi>CD</m:mi>
+    <m:mi>OD</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>sin</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>cos</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+       
+</para>
+<para id="element-66">Vector method has one more simplifying aspect. We can compose more than two SHMs by consecutive application of parallelogram theorem or by using consecutive application of triangle law of vector addition. See the figure and observe how do we compose three SHMs and find the resulting amplitude (A) and phase difference (θ) from the reference direction.
+</para>
+<para id="element-67">
+<figure id="fig-67">
+<title> Composition of more than two SHMs </title>
+<media id="id8626649" alt=""><image src="../../media/cs2.gif" mime-type="image/gif"/></media>
+<caption> The closing side of the ploygon represents the resultant amplitude.</caption>
+</figure>
+</para>
+</section>
+</section>
+
+<section id="section-3">
+<title>Composition of SHMs in perpendicular directions</title>
+<para id="element-68">Simple harmonic motions in mutually perpendicular directions constitute a two dimensional motion. The x-direction of motion is governed by SHM force in x-direction, whereas y-direction of motion is governed by SHM force in y-direction. Let the displacements in “x” and “y” directions be :
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">The force in x-direction does not affect the displacement in y-direction and vice versa. We have pointed out that “effect” of one force is independent of the presence of other forces. Here, this independence is a step ahead. Force in one direction is incapable to produce “effect” in perpendicular direction in the first place. As such, the two equations, as they are, give “x” and “y” coordinates of the particle at any given instant. The resulting motion is two dimensional motion. In the nutshell, we do not need to combine effects (displacements) in a particular direction as in the case of one dimensional composition. 
+</para>
+<section id="section-3a">
+<title>Lissajous curves</title>
+<para id="element-72">The plot of the motion as defined by the SHM displacement equations is known as “Lissajous curve”. In order to determine the curve (path) of resulting motion, we eliminate “t” from two equations. For this, we first expand the trigonometric expression of displacement in “y” direction :
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>φ</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>cos</m:mi>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-74">Now, we substitute the values of trigonometric functions from the expression of displacement in “x” direction. Here,
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>−</m:mo>
+          <m:mfrac>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:msup>
+              <m:mi>A</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-76">Substituting these values,
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>{</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:mfrac>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+    <m:mo>+</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>−</m:mo>
+          <m:mfrac>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+            <m:msup>
+              <m:mi>A</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mi>sin</m:mi>
+    <m:mi>φ</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-78"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+    <m:mi>y</m:mi>
+    <m:mi>B</m:mi>
+    </m:mfrac>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:mfrac>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>−</m:mo>
+          <m:mfrac>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+            <m:msup>
+              <m:mi>A</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mi>sin</m:mi>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-79">Squaring both sides and rearranging,
+</para>
+<para id="element-80">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>A</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>B</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-81">This is an equation of ellipse. The nature of path depends on amplitudes of the individual SHMs and the phase difference. Importantly, we realize that resulting motion may not be oscillatory at all – although it is periodic.
+</para>
+<para id="element-82">
+<figure id="fig-82">
+<title> Lissajous curves </title>
+<media id="id12223579" alt=""><image src="../../media/cs3.gif" mime-type="image/gif"/></media>
+<caption> The path of motion is an ellipse.</caption>
+</figure>
+</para>
+<para id="element-83">Further, we observe from the equation for displacement in “x” direction that values of “x” lie between “-A” and “A”. Similarly, values of “y” lie between “-B” and “B”. Clearly, path of resulting motion (i.e. ellipse) lies within the boundary, set up by limiting values of “x” and “y”. This is shown in the figure above.
+</para>
+</section>
+<section id="section-3b">
+<title>Important cases</title>
+<para id="element-84">
+We ,here, consider few interesting cases :
+</para>
+<section id="section-3b1">
+<title>Phase difference is zero</title>
+<para id="element-85">Zero phase difference means that individual SHMs are in phase with respect to each other. If we compare two SHMs as if they are independent and separate, then they reach mean position and respective “x” and “y” extremes at the same time. We can find the path of resulting motion by putting phase difference zero in the equation of path. Here,
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>A</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>B</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>0</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mn>0</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>A</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>B</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mi>A</m:mi>
+          </m:mfrac>
+          <m:mo>−</m:mo>
+          <m:mfrac>
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+            <m:mi>B</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+     
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>B</m:mi>
+      <m:mi>A</m:mi>
+    </m:mfrac>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-90">
+<figure id="fig-90">
+<title> Lissajous curves </title>
+<media id="id6188226" alt=""><image src="../../media/cs4.gif" mime-type="image/gif"/></media>
+<caption> The path of motion is a straight line.</caption>
+</figure>
+</para>
+<para id="element-91">This is the equation of a straight line. The path of motion in reference to bounding rectangle is shown for this case. It is worth pointing here that we can actually derive this equation directly simply by putting φ = 0 in displacement equations in “x” and “y” directions and then solving for "y". 
+</para>
+<para id="element-92">Clearly, motion of the particle under this condition is an oscillatory motion along a straight line. We need to know the resultant displacement equation. Let “z” denotes displacement along the path. By geometry, we have :
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>z</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>y</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-94">Substituting for “x” and “y” with φ = 0, 
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>z</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:msup>
+            <m:mi>sin</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>ω</m:mi>
+          <m:mi>t</m:mi>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>B</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:msup>
+            <m:mi>sin</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>ω</m:mi>
+          <m:mi>t</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>B</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-96">This is bounded periodic harmonic sine function representing SHM of amplitude 
+<m:math>
+  <m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>B</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+ and angular frequency “ω” – same as that of either of the component SHMs.
+</para>
+</section>
+<section id="section-3b2">
+<title>Phase difference is π/2</title>
+<para id="element-97">A finite phase difference means that individual SHMs are not in phase with respect to each other. If we compare two SHMs as if they are independent and separate, then they reach mean position and respective “x” and “y” extremes at different times. When one is at the mean position, other SHM is at the extreme position and vice versa. We can find the path of resulting motion by putting phase difference “π/2” in the equation of path. Here,
+</para>
+<para id="element-98">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>A</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>B</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>A</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>B</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+           
+</para>
+<para id="element-100">
+<figure id="fig-100">
+<title> Lissajous curves </title>
+<media id="id9036397" alt=""><image src="../../media/cs5.gif" mime-type="image/gif"/></media>
+<caption> The path of motion is an ellipse.</caption>
+</figure>
+</para>
+<para id="element-101">This is an equation of ellipse having major and minor axes “2A” and “2B” respectively. The resulting motion of the particle is along an ellipse. Hence, motion is periodic, but not oscillatory. If A = B, then the equation of path reduces to that of a circle of radius “A” or “B” :
+</para>
+<para id="element-102"> 
+<figure id="fig-102">
+<title> Lissajous curves </title>
+<media id="id14348468" alt=""><image src="../../media/cs6.gif" mime-type="image/gif"/></media>
+<caption> The path of motion is a circle.</caption>
+</figure>
+</para>
+<para id="element-103">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+<section id="section-3b3">
+<title>Phase difference is π</title>
+<para id="element-104">Individual SHMs are not in phase with respect to each other. When one is at one extreme, other SHM is at the other extreme position and vice versa. We can find the path of resulting motion by putting phase difference “π” in the equation of path. Here,
+</para>
+<para id="element-105">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>A</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>B</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-106">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>A</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>B</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mi>A</m:mi>
+          </m:mfrac>
+          <m:mo>+</m:mo>
+          <m:mfrac>
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+            <m:mi>B</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+      
+</para>
+<para id="element-108">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>B</m:mi>
+      <m:mi>A</m:mi>
+    </m:mfrac>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-109">
+<figure id="fig-109">
+<title> Lissajous curves </title>
+<media id="id12068464" alt=""><image src="../../media/cs7.gif" mime-type="image/gif"/></media>
+<caption> The path of motion is a straight line.</caption>
+</figure>
+</para>
+<para id="element-110">This is the equation of a straight line. The path of motion in reference to bounding rectangle is shown for this case. It is worth pointing here that we can actually derive this equation directly by putting "φ = π" in displacement equations in “x” and “y” directions. 
+</para>
+<para id="element-111">Clearly, motion of the particle under this condition is an oscillatory motion along a straight line. We need to know the resultant displacement equation. Let “z” denotes displacement along the path. By geometry, we have :
+</para>
+<para id="element-112">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>z</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>y</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-113">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-114">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-115">Substituting for “x” and “y” with φ = π, 
+</para>
+<para id="element-116">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>z</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mi>sin</m:mi>
+              <m:mi>ω</m:mi>
+              <m:mi>t</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mo>-</m:mo>
+              <m:mi>B</m:mi>
+              <m:mi>sin</m:mi>
+              <m:mi>ω</m:mi>
+              <m:mi>t</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-117">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>z</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:msup>
+            <m:mi>sin</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>ω</m:mi>
+          <m:mi>t</m:mi>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>B</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:msup>
+            <m:mi>sin</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>ω</m:mi>
+          <m:mi>t</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>B</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-118">This is bounded periodic harmonic sine function representing SHM of amplitude 
+<m:math>
+  <m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>B</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+ and angular frequency “ω” – same as that of either of the component SHMs.
+</para>
+</section>
+</section>
+</section>
+  </content>
+  
+</document>

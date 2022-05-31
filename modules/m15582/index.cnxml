@@ -1,0 +1,1327 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>SHM equation</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>d8731bb1-a0fa-4450-96f6-0d29b4bc0fba</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Force is the cause of simple harmonic motion. However, it plays a very different role than that in translational or rotational motion. First thing that we should be aware that oscillating systems like block-spring arrangement or a pendulum are examples of systems in stable equilibrium. When we apply external force, it tends to destabilize or disturb the state of equilibrium by imparting acceleration to the object in accordance with Newton’s second law. 
+
+
+
+</para>
+<para id="element-2">Secondly, role of destabilizing external force is one time act. The oscillation does not require destabilizing external force subsequently. It, however, does not mean that SHM is a non-accelerated motion. As a matter of fact, oscillating system generates a restoring mechanism or restoring force that takes over the role of external force once disturbed. The name “restoring” signifies that force on the oscillating object attempts to restore equilibrium (central position in the figure) – undoubtedly without success in SHM. 
+</para>
+<para id="element-6">
+<figure id="fig-6">
+<title> System in stable equilibrium </title>
+<media id="idm2887728" alt=""><image src="../../media/fe1.gif" mime-type="image/gif"/></media>
+<caption> Restoring force(s) tends to restore equilibrium.</caption>
+</figure>
+</para>
+<para id="element-3">
+SHM is an accelerated motion in which object keeps changing its velocity all the time. The analysis of SHM involves consideration of “restoring force” – not the external force that initially starts the motion. Further, we need to understand that initial external force and hence restoring force are relatively small than the force required to cause translation or rotation. For example, if we displace pendulum bob by a large angle and release the same for oscillation, then the force on the system may not fulfill the requirement of SHM and as such the resulting motion may not be a SHM.
+</para>
+<para id="element-4">
+We conclude the discussion by enumerating requirements of SHM as :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> The object is in stable equilibrium before start of the motion. </item>
+<item> External destabilizing force is applied only once. </item>
+<item> The object accelerates and executes SHM under the action of restoring force. </item>
+<item> The magnitude of restoring force or displacement is relatively small. </item>
+<item> There is no dissipation of energy during motion (ideal reference assumption). </item>
+</list>
+</para>
+<section id="section-1">
+<title>Force equation</title>
+<para id="element-7"> Here, we set out to figure out nature of restoring force that maintains SHM. For understanding purpose we consider the block-spring system and analyze “to and fro” motion of the block. Let the origin of reference coincides with the position of the block for the neutral length of spring. The block is moved right by a small displacement “x” and released to oscillate about neutral position or center of oscillation. The restoring spring force is given by (“k” is spring constant) :
+</para>
+<para id="element-8">
+<figure id="fig-8">
+<title> Block-spring system </title>
+<media id="idp7737456" alt=""><image src="../../media/fe2.gif" mime-type="image/gif"/></media>
+<caption> Restoring force(s) tends to restore equilibrium.</caption>
+</figure>
+</para>
+<para id="element-9"><m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">In the case of pendulum, we describe motion in terms of torque as it involves angular motion. Here, torque is (we shall study this relation later):
+</para>
+<para id="element-11"><m:math display="block">
+  <m:mrow>
+    <m:mi>τ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>l</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-12"> In either case, we see that “cause” (whether force or torque) is proportional to negative of displacement – linear or angular as the case be. Alternatively, we can also state the nature of restoring force in terms of acceleration,
+</para>
+<para id="element-13">Linear acceleration, <m:math>
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>k</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math> ------ for linear SHM of block-spring system
+</para>
+<para id="element-14">Angular acceleration, <m:math>
+  <m:mrow>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>l</m:mi>
+      </m:mrow>
+      <m:mi>I</m:mi>
+    </m:mfrac>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>   ------ for rotational SHM of pendulum
+</para>
+<para id="element-15">where “m” and “I” are mass and moment of inertia of the oscillating objects in two systems. 
+</para>
+<para id="element-16">In order to understand the nature of cause, we focus on the block-spring system. When the block is to the right of origin, “x” is positive and restoring spring force is negative. This means that restoring force (resulting from elongation of the spring) is directed left towards the neutral position (center of oscillation). This force accelerates the block towards the center. As a result, the block picks up velocity till it reaches the center. 
+</para>
+<para id="element-287">The plot, here, depicts nature of force about the center of oscillation bounded between maximum displacements on either side.</para><para id="element-17">
+<figure id="fig-17">
+<title> Nature of restoring force </title>
+<media id="idm9522640" alt=""><image src="../../media/fe3.gif" mime-type="image/gif"/></media>
+<caption> Restoring force(s) tends to restore equilibrium.</caption>
+</figure>
+</para>
+<para id="element-18">As the block moves past the center, “x” is negative and force is positive. This means that restoring force (resulting from compression of the spring) is directed right towards the center. The acceleration is positive, but opposite to direction of velocity. As such restoring force decelerates the block. 
+</para>
+<para id="element-19">
+<figure id="fig-19">
+<title> Block-spring system </title>
+<media id="idp1664576" alt=""><image src="../../media/fe4.gif" mime-type="image/gif"/></media>
+<caption> Restoring force(s) tends to restore equilibrium.</caption>
+</figure>
+</para>
+<para id="element-20">In the nutshell, after the block is released at one extreme, it moves, first, with acceleration up to the center and then moves beyond center towards left with deceleration till velocity becomes zero at the opposite extreme. It is clear that block has maximum velocity at the center and least at the extreme positions (zero). 
+</para>
+<para id="element-21">From the discussion, the characterizing aspects of the restoring force responsible for SHM are :
+</para>
+<para id="element-22">
+<list id="list-22" list-type="bulleted">
+<item> The restoring force is always directed towards the center of oscillation. </item>
+<item> The restoring force changes direction across the center. </item>
+<item> The restoring force first accelerates the object till it reaches the center and then decelerates the object till it reaches the other extreme. </item>
+<item> The process of “acceleration” and “deceleration” keeps alternating in each half of the motion. </item>
+</list>
+</para>
+</section>
+<section id="section-2">
+<title>Differential form of SHM equation</title>
+<para id="element-23">We observed that acceleration of the object in SHM is proportional to negative of displacement. Here, we shall formulate the general equation for SHM in linear motion with the understanding that same can be extended to SHM along curved path. In that case, we only need to replace linear quantities with corresponding angular quantities. 
+</para>
+<para id="element-24"><m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">where “<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>” is a constant. The constant “ω” turns out to be angular frequency of SHM. This equation is the basic equation for SHM. For block-spring system, it can be seen that :
+</para>
+<para id="element-26"><m:math display="block">
+  <m:mrow>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>k</m:mi>
+            <m:mi>m</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">where “k” is the spring constant and “m” is the mass of the oscillating block. We can, now, write acceleration as differential,
+</para>
+<para id="element-28"><m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">This is the SHM equation in differential form for linear oscillation. A corresponding equation of motion in the context of angular SHM is :
+</para><para id="element-95"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<para id="element-273">where "θ" is the angular displacement.</para><section id="section-3">
+<title>Solution of SHM differential equation
+</title>
+<para id="element-31">In order to solve the differential equation, we consider position of the oscillating object at an initial displacement <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> at t =0. We need to emphasize that “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” is initial position – not the extreme position, which is equal to amplitude “A”. Let
+</para>
+<para id="element-32"><m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0,</m:mn>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">We shall solve this equation in two parts. We shall first solve equation of motion for the velocity as acceleration can be written as differentiation of velocity w.r.t to time. Once, we have the expression for velocity, we can solve velocity equation to obtain a relation for displacement as its derivative w.r.t time is equal to velocity.
+</para>
+<section id="section-3a">
+<title>Velocity
+</title>
+<para id="element-34">We write SHM equation as differential of velocity : 
+</para>
+<para id="element-35"><m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>     
+</para>
+<para id="element-38">Arranging terms with same variable on either side, we have :
+</para>
+<para id="element-39"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">Integrating on either side between interval, while keeping constant out of the integral sign :
+</para>
+<para id="element-41"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>v</m:mi>
+      </m:mrow>
+    </m:munderover>
+    <m:mi>v</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:munderover>
+    <m:mi>x</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>v</m:mi>
+      </m:mrow>
+    </m:munderover>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:munderover>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>0</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msubsup>
+          <m:mi>x</m:mi>
+          <m:mrow>
+            <m:mn>0</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mrow>
+              <m:msubsup>
+                <m:mi>v</m:mi>
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msubsup>
+            </m:mrow>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>ω</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:msubsup>
+              <m:mi>x</m:mi>
+              <m:mrow>
+                <m:mn>0</m:mn>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>ω</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:msubsup>
+                  <m:mi>v</m:mi>
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:msubsup>
+              </m:mrow>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>ω</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfrac>
+            <m:mo>+</m:mo>
+            <m:msubsup>
+              <m:mi>x</m:mi>
+              <m:mrow>
+                <m:mn>0</m:mn>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">We put <m:math>
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:msubsup>
+              <m:mi>v</m:mi>
+              <m:mrow>
+                <m:mn>0</m:mn>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+          <m:mrow>
+            <m:msup>
+              <m:mi>ω</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:msubsup>
+          <m:mi>x</m:mi>
+          <m:mrow>
+            <m:mn>0</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+. We shall see that “A” turns out to be the amplitude of SHM.
+</para>
+<para id="element-47"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>A</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-49">
+This is the equation of velocity. When x = A or -A,
+</para>
+<para id="element-50"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>A</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>A</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">when x = 0,
+</para>
+<para id="element-52"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mrow>
+      <m:mi>max</m:mi>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>A</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mn>0</m:mn>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3b">
+<title>Displacement </title>
+<para id="element-53">We write velocity as differential of displacement : 
+</para>
+<para id="element-54"><m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>A</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">Arranging terms with same variable on either side, we have :
+</para>
+<para id="element-56"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>A</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>−</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-57">Integrating on either side between interval, while keeping constant out of the integral sign :
+</para>
+<para id="element-58"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:munderover>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>A</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>−</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mi>t</m:mi>
+    </m:munderover>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-59"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:munderover>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mi>A</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">Let <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mi>A</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+. We shall see that “φ” turns out to be the phase constant of SHM.
+</para>
+<para id="element-62"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+
+<para id="element-64"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-65">This is one of solutions of the differential equation. We can check this by differentiating this equation twice with respect to time to yield equation of motion :
+</para>
+<para id="element-66"><m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67"><m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>A</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+
+
+<para id="element-71">Similarly, it is found that equation of displacement in cosine form, <m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>, also satisfies the equation of motion. As such, we can use either of two forms to represent displacement in SHM. Further, we can write general solution of the equation as :
+</para>
+<para id="element-72"><m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">This equation can be reduced to single sine or cosine function with appropriate substitution.
+</para>
+</section>
+</section>
+<section id="section-4">
+<title>Example </title>
+<para id="element-74"><term>Problem 1: </term> Find the time taken by a particle executing SHM in going from mean position to half the amplitude. The time period of oscillation is 2 s.
+</para>
+<para id="element-75"><term>Solution : </term> Employing expression for displacement, we have :
+</para>
+<para id="element-76"><m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-77">We have deliberately used sine function to represent displacement as we are required to determine time for displacement from mean position to a certain point. We could ofcourse stick with cosine function, but then we would need to add a phase constant “π/2” or “-π/2”. The two approach yields the same expression of displacement as above. 
+</para>
+<para id="element-78">Now, according to question,
+</para>
+<para id="element-79"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-80"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-103"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para><para id="element-81"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mrow>
+        <m:mn>6</m:mn>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+    <m:mi>π</m:mi>
+      <m:mi>T</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>6</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>T</m:mi>
+      <m:mn>12</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mn>12</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+
+
+  </content>
+  
+</document>

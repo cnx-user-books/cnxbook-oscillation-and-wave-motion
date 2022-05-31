@@ -1,0 +1,897 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Waves</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>547ae5c7-9ab2-42cc-bef5-a1c3d19005fd</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The “particle” and “wave” are two forms in which universe is manifested at the basic level. Either we interact with particle or wave. Generally, we tend to associate the concept of particle with “mass and energy” and that of “wave” with energy. In the light of Einstein formulation of “mass – energy equivalence”, we can further refine these associations : 
+</para>
+<para id="element-2"><term>Particle :</term> It is aggregation or concentration of energy localized in space
+</para>
+<para id="element-3"><term>Wave :</term> It is distribution of energy in space
+</para>
+<section id="section-1">
+<title>What is wave?</title>
+<para id="element-4">It is a difficult question to answer. The best we can offer is interpretation which arises from explanation of various observations : Wave is distributed energy or distributed “disturbance (force)”.  
+</para>
+<para id="element-5">Take half bucket of water. Give the bucket a jerk and watch the movement of water surface. The water mass near the surface moves from one side of the bucket to another in oscillatory fashion for some time before it comes to a standstill. The movement of water mass here replicates water waves which undergo frequent collisions with the wall of the bucket. It is easy to interpret this real time observation in terms of ideal situation. Had there been no friction (viscosity) and loss of energy during collision of water mass with the inner wall of the bucket, the disturbance (jerk) imparted would have caused a disturbance to the water body that would be sustained for all time to come.
+</para>
+<para id="element-6">
+<figure id="fig-6">
+<title> Water waves </title>
+<media id="idp1603600" alt=""><image src="../../media/waves1.gif" mime-type="image/gif"/></media>
+<caption>  The water mass near the surface moves from one side of the bucket to another in oscillatory fashion for some time before it comes to a standstill.</caption>
+</figure>
+</para>
+<para id="element-7">Now, we drop a pebble on a calm surface of water. The water ripples move outward in concentric circles. The concentric ripples are result of multiple disturbances created at the point where pebble hits the water surface. This is real time situation. Let us again infer the observation in terms of an ideal situation. If it is a single impact of the pebble with the surface, then a single disturbance spreads around in concentric circles and move away to cover the expanse of water surface. If it had been an infinite surface, the disturbance would have reached the farthest. We interpret this ideal situation in many different ways including :
+</para>
+<para id="element-8"> 
+<figure id="fig-8">
+<title> Water waves </title>
+<media id="idp6369360" alt=""><image src="../../media/waves2.gif" mime-type="image/gif"/></media>
+<caption>  The disturbance (force) is transmitted from one point to another. </caption>
+</figure>
+</para>
+<para id="element-9"><term>1: </term>	The disturbance (force) is transmitted from one point to another.
+</para>
+<para id="element-10"><term>2: </term>	The energy is transmitted from one point to another.
+</para>
+<para id="element-11">If we place a small piece of paper on the water surface, then we find that paper piece moves up and down with slight side way oscillation. However, it remains where it is without any net displacement. We conclude :
+</para>
+<para id="element-12"><term>3: </term>	The energy or disturbance passes in the form of wave without any net displacement of medium.
+</para>
+<para id="element-13">
+<figure id="fig-13">
+<title> Water waves </title>
+<media id="idm1004160" alt=""><image src="../../media/waves3.gif" mime-type="image/gif"/></media>
+<caption>  The water particle on the surface is executing a periodic motion. </caption>
+</figure>
+</para>
+<para id="element-14">Let us now have a closer look at the motion of paper. In the ideal approximation, we see that paper is executing simple harmonic motion (SHM) in both longitudinal (side ways) and transverse (vertical) directions. The net result is that it is following an elliptical (or circular) trajectory. We infer that each water particle on the surface is executing a periodic motion. The displacement of adjacent water particles are different creating crest and trough. It appears that oscillatory motion (and hence its kinetic energy) has been passed to the next neighboring water particle and so on. Conclusion :
+</para>
+<para id="element-15"><term>4: </term>	The oscillatory motion of preceding particle is imparted to the adjacent particle following it.
+</para>
+<para id="element-16">Returning to real time ripples on the water surface, we observe that ripples are originating continuously from the contact point for some time. It is the case of multiple disturbances. As such, a succession of ripple passes through water surface. The particle at the crest moves down to form trough subsequently and vice-versa. This cycle continues till the disturbance at the origin is over. Conclusion :
+</para>
+<para id="element-17">
+<term>5: </term>	We need to keep creating disturbance in order to propagate wave (energy or disturbance) continuously.
+</para>
+<section id="section-1a">
+<title>Wave and medium</title>
+<para id="element-18">Water wave and propagation of sound waves show the importance of wave transmitting medium. These waves move through a medium. The Maxwell description of electromagnetic waves, however, puts an end to the requirement of a medium for the propagation of waves in general. The light wave (electromagnetic wave), for example, travels most of its journey from Sun to Earth in vacuum! The propagation of electromagnetic wave does not require a medium for propagation. On the other hand, we are unable to talk on Moon as it does not have its atmosphere to carry sound wave. Thus, we conclude that the wave can move with or without medium depending on the specific wave in question.
+</para>
+</section>
+<section id="section-1b">
+<title>Disturbance</title>
+<para id="element-19">Disturbance is alteration of physical property in time. This physical quantity can be displacement, pressure, density, electric or magnetic field etc. In the propagation of water waves, we denote relative position or displacement of water molecules from the mean position as disturbance. Similar is the case with string wave – the wave traveling through a taught string. Here, displacement of string element from the undisturbed position is used to measure disturbance. We account the disturbance by air pressure in the case of sound.  There is change in stress values in the case of seismic waves through Earth. On the other hand, the electromagnetic wave involves simultaneous alteration of electric and magnetic fields at right angle to each other and also to the direction of wave propagation 
+</para>
+<para id="element-20">The most general physical parameter that can be used to represent alteration in all cases is “energy”. Instead of a particular physical parameter in specific cases, we can consider them to be alterations of “energy”. If required, we can specify the type of energy as well like : mechanical or elastic energy, pressure energy or electromagnetic energy as appropriate for a specific wave.
+</para>
+</section>
+<section id="section-1c">
+<title>Dimensions of waves</title>
+<para id="element-21">The wave in a taught string moves along a straight line and as such is one-dimensional. The water wave moves over the two dimensional surface of water body and hence water wave is two-dimensional. On the other hand, sound waves or light waves propagate all around the source and hence are three dimensional in nature.
+</para>
+</section>
+<section id="section-1d">
+<title>Wave classification</title>
+<para id="element-22">The waves are classified under three high level headings :
+</para>
+<para id="element-23"><term>1: </term>Mechanical waves : The motion of the particles constituting the medium follows mechanical laws i.e. Newton’s laws of motion. A medium is required for propagation of mechanical waves. The motion of the waves depends on the mechanical properties of the medium.
+</para>
+<para id="element-24"><term>2: </term>Electromagnetic waves : These are propagation of electric and magnetic fields. The electromagnetic waves do not require a medium for propagation. Its speed in vacuum is a universal constant. The motion of the electromagnetic waves in a medium depends on the electromagnetic properties of the medium.
+</para>
+<para id="element-25"><term>3: </term>	Matter waves : The matter wave is associated with all matter. The wave nature of matter is not always appreciable. It becomes appreciable for sub-atomic particles like electrons, which display significant wave properties. This is the basis of electron microscope.
+</para>
+</section>
+</section>
+<section id="section-2">
+<title>Nature of waves</title>
+<para id="element-26">The disturbance (vibration) and direction of wave may be either in the same direction (longitudinal wave) or mutually perpendicular (transverse wave). Primary seismic waves (also known as P-waves) and sound waves are examples of longitudinal waves. Electromagnetic waves are transverse waves in which electric and magnetic fields are alternating at right angles to the direction of propagation. Water waves, as discussed earlier, is combination of longitudinal and transverse waves.
+</para>
+<section id="section-2a">
+<title>Transverse waves </title>
+<para id="element-27">Transverse waves are characterized by the relatigve directions of vibration (disturbance) and wave motion. They are at right angle to each other. It is clear that vibration in perpendicular direction needs to be associated with a “restoring” mechanism in transverse direction. 
+</para>
+<para id="element-28">
+<figure id="fig-28"><title> Transverse waves </title>
+	<media id="idp1559952" alt=""><image src="../../media/waves4.gif" mime-type="image/gif"/></media>
+	<caption>  The vibration and wave motion are at right angle to each other (only one unit of wave shown for illustration purpose).  </caption>
+</figure>
+</para>
+<para id="element-29">Consider a sinusoidal harmonic wave traveling through a string and the motion of a particle as shown in the figure above (only one unit of wave shown for illustration purpose). Since the particle is displaced from its natural (mean) position, the tension in the string arising from the deformation tends to restore the position of the particle. On the other hand, velocity of the particle (kinetic energy) moves the particle farther away from the mean position. Ultimately, the particle reaches the maximum displacement when its velocity is zero. Thereupon, the particle is pulled down due to tension towards mean position. In the process, it acquires kinetic energy (greater speed) and overshoots the mean position in the downward direction. The cycle of restoration of position continues as vibration (oscillation) of particle takes place.
+</para>
+<para id="element-30">For mechanical wave through solid, the restoring mechanism is provided by the elastic property of the medium. A body of liquid does not display elastic property. It can not restore deformation caused by shear i.e. transverse force. As such, transverse wave can not pass through a liquid body. On the surface of liquid, however, transverse (perpendicular to surface) deformation is restored by surface tension. For this reason,  water surface waves have a transverse component. It means that transverse waves can be sustained on the surface, but not within the body of the liquid. </para>
+<para id="element-31">As far as gas is concerned, it does not exhibit elastic property like solid or surface tension like liquid. Gas simply yields to slightest transverse force without being restored. The intermolecular forces between molecules are too feeble to restore transverse deformation. Thus, mechanical transverse waves can not propagate through gas at all. Electromagnetic waves are exception to this. It is because EM waves do not require medium. There is no need to restore the system mechanically.
+</para>
+</section>
+<section id="section-2b">
+<title>Longitudinal waves </title>
+<para id="element-32">Longitudinal waves are characterized by the directions of vibration (disturbance) and wave motion. They are along the same direction. It is clear that vibration in the same direction needs to be associated with a “restoring” mechanism in the longitudinal direction. 
+</para>
+<para id="element-33">Consider the case of sound wave. The wave comprises alternating compressions and  rarifications. The compressed zone is characterized by higher pressure, which tends to expand the air in the zone. Thus, there is alteration of pressure as the zone transitions from compression to rarification and so on.
+</para>
+<para id="element-34">It is intuitive to note that all medium types (solid, liquid or gas) support longitudinal waves.</para>
+</section>
+</section>
+<section id="section-3">
+<title>Mathematical description of waves </title>
+<para id="element-35">We shall attempt here to evolve a mathematical model of a traveling transverse wave. For this, we choose a specific set up of string and associated transverse waves traveling through it. The string is tied to a fixed end, while disturbance is imparted at the free end by up and down motion. For our purpose, we consider that pulse is small in dimension; the string is light, elastic and homogeneous. These assumptions are required as we visualize a small traveling pulse which remains undiminished when it moves through the string. We also assume that the string is long enough so that our observation is not subject to pulse reflected at the fixed end.
+</para>
+<para id="element-36">For understanding purpose, we first consider a single pulse as shown in the figure (irrespective of whether we can realize such pulse in practice or not). Our objective here is to determine the nature of a mathematical description which will enable us to determine displacement (disturbance) of string as pulse passes through it. We visualize two snap shots of the traveling pulse at two close time instants “t” and “t+∆t”. The single pulse is moving towards right in the positive x-direction.
+</para>
+<para id="element-37">
+<figure id="fig-37">
+<title> Transverse waves </title>
+<media id="idp5935232" alt=""><image src="../../media/waves5.gif" mime-type="image/gif"/></media>
+<caption>  The vibration and wave motion are at right angle to each other. </caption>
+</figure>
+</para>
+<para id="element-38">Three positions along x-axis named “1”,”2” and “3” are marked with three vertical dotted lines. At either of two instants as shown, the positions of string particles have different displacements from the undisturbed position on horizontal x-axis. We can conclude from this observation that displacement in y-direction is a function of positions of particle in x-direction. As such, the displacement of a particle constituting the string is a function of “x”. 
+</para>
+<para id="element-39">
+Let us now observe the positions of a given particle, say “1”. It has certain positive displacement at time t = t. At the next snapshot at t=t+∆t, the displacement has reduced to zero. The particle at “2” has maximum displacement at t=t, but the same has reduced at t=t+∆t. The third particle at “3” has certain positive displacement at t=t. At t=t+∆t, it acquires additional positive displacement and reaches the position of maximum displacement.  From these observations, we conclude that displacement of a particle at any position along the string is a function of “t”.
+</para>
+<para id="element-40">Combining two observations, we conclude that displacement of a particle is a function of both position of the particle along the string and time. 
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">We can further specify the nature of the mathematical function by associating the speed of the wave in our consideration. Let “v” be the constant speed with which wave travels from the left end to the right end.  We notice that wave function at a given position of the string is a function of time only as we are considering displacement at a particular value of “x”. Let us consider left hand end of the string as the origin of reference (x=0 and t=0). The displacement in y-direction (disturbance) at x=0 is a function of time, “t” only :
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">The disturbance travels to the right at a constant speed “v”. Let it reaches a point specified as x=x after time “t”. If we visualize to describe the origin of this disturbance at x=0, then time elapsed for the disturbance to move from the origin (x=0) to the point (x=x) is “x/v”. Therefore, if we want to use the function of displacement at x=0 as given above, then we need to subtract the time elapsed and set the equation as :
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>v</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mo>{</m:mo>
+    <m:mfrac>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>v</m:mi>
+          <m:mi>t</m:mi>
+          <m:mo>−</m:mo>
+          <m:mi>x</m:mi>
+        </m:mrow>
+      </m:mfenced>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">Division by a constant like speed of wave does not change the nature of argument. Hence :
+</para>
+<para id="element-474"><m:math display="block">
+		<m:mrow>
+			<m:mi>y</m:mi>
+			<m:mo>=</m:mo>
+			<m:mi>f</m:mi>
+			<m:mfenced>
+				<m:mrow>
+	<m:mi>v</m:mi>
+					<m:mi>t</m:mi>
+
+					<m:mo>−</m:mo>
+									<m:mi>x</m:mi>
+				</m:mrow>
+			</m:mfenced>
+		</m:mrow>
+	</m:math>
+</para><para id="element-542">We can exchange terms of the argument of the wave function as well :</para><para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>v</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-302">The exchange of terms aound negative sign introduces a phase difference between waves represented by two forms. The coorect order of terms depend on the state of motion of the particle at x=0 and t=0. We shall explore this aspect in detail when cosidering transverse harmonic waves in a separate module.</para><para id="element-48">The wave functions represent displacement of unidirectional wave. This describes the displacement (disturbance) along the string which moves in positive x-direction. Extending the derivation, the function representing a wave moving in negative x-direction is :
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>v</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-50">
+It is the sign (minus or plus) separating two terms of the argument that determines the direction of wave with respect to positive x-direction. We should, however, be careful that all function of the forms as indicated above may not represent a wave. For example, the function should evaluate to a finite value as displacement needs to be finite. For this reason, a function given here under is invalid wave function (not defined for x=0 and t =0) :
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>v</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-52">On the other hand, following functions are bounded by finite values and hence are valid wave function :
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>t</m:mi>
+            <m:mo>−</m:mo>
+            <m:mfrac>
+              <m:mi>x</m:mi>
+              <m:mrow>
+                <m:mi>λ</m:mi>
+                <m:mo>/</m:mo>
+                <m:mi>T</m:mi>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<section id="section-4">
+<title>Wave equation</title>
+<para id="element-55">The propagation of wave is governed by a differential equation. For wave in one dimension, the equation is given as :
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>u</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>u</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">Here “k” is a constant equal to square of the wave speed. The parameter “u” is disturbance or amplitude parameter, which can be displacement, pressure or electric field depending on the wave in question. The parameter “u” is a function of position (x) and time (t). This equation can be written with respect to “y” and “z” directions to represent two or three dimensional waves.
+</para>
+<para id="element-64">Confining ourselves to one dimensional wave, putting 
+<m:math>
+  <m:mrow>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> and u = y for displacement from the mean position, the differential equation takes the form :
+</para>
+<para id="element-65"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-66">
+A general solution of the wave equation in one dimension is given as :
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>±</m:mo>
+        <m:mi>b</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-68">The solution for the wave moving in positive x-direction is :
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>b</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-70">A comparison of this function with the equation derived earlier 
+<m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>v</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+, we see that speed of the wave is :
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>b</m:mi>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+</section> 
+<example id="example-57">
+<para id="element-57"><term>Problem : </term>Find the speed of the wave which is represented by the function :
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>t</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-59">where “x” is in meters and “t” is in second. 
+</para>
+<para id="element-60"><term>Solution : </term> The wave function is finite for all values of “t” and “x”. It has the form y= f(ax+bt). It means that the wave is traveling opposite to the positive x-direction. The speed of the wave is :
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>b</m:mi>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>3</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1.5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+</example>
+</section>
+
+<section id="section-5">
+<title>Interpreting wave function</title>
+<para id="element-72">What does wave function represent? Here, it is helpful to recall that wave, after all, is energy. A wave function should represent the wave (energy form) – not motion of a particle. We shall see, here, that wave function -apart from describing motion of individual particles - also represents the motion of “disturbance” as required. It represents something which has no material existence. How does it do so?
+</para>
+<para id="element-73">In the earlier section, the mathematical wave function has been developed to determine disturbance at any position “x” and time instant “t”. Note the important point – it gives disturbance of all particles on the string at any given instant – not a single particle. In order to understand the difference, let us consider a sinusoidal function valid for wave on a taught string :
+</para>  
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>v</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>  
+<para id="element-75">At the point of the origin, x = 0, the function is :
+</para>  
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>=</m:mo>
+        <m:mn>0,</m:mn>
+        <m:mi>t</m:mi>
+        <m:mo>=</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mi>k</m:mi>
+        <m:mi>v</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>k</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>  
+<para id="element-77">This function is a sine function in time “t”. As we are aware, this is an equation of simple harmonic motion. It describes the motion of the particle executing SHM at x=0. Similarly, the function representing motion of the particle in “y” direction at x = a is :
+</para>  
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>=</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+        <m:mo>=</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>v</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>  
+<para id="element-79"> 
+<figure id="fig-79"><title> Motion of a particle </title>
+	<media id="idp6830512" alt=""><image src="../../media/waves6.gif" mime-type="image/gif"/></media>
+	<caption>  The particle executes SHM (only one unit of wave shown for illustration purpose).</caption>
+</figure>
+</para>  
+<para id="element-80">Clearly, the sinusoidal expression at a given position describes motion of a single particle at that point – not that of wave i.e. the motion of disturbance. The speed of the particle in y-direction is given by the time derivative of particle’s displacement from its mean position:
+</para>  
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>p</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>  
+<para id="element-82">Thus, we see that we can use wave function to interpret the motion associated with the particle or small string segment in y-direction.
+</para>  
+<para id="element-83">
+Now, let us look at the function as a function of “x” along which wave is considered to travel. At time instant t = 0, the shape of the wave is sinusoidal and the equation representing the shape is :
+</para>  
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>=</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+        <m:mo>=</m:mo>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>  
+<para id="element-85">The snapshots corresponding to time instants t = 0,T/4, T/2, 3T/4 and T, where “T” is the time period of oscillation in y –direction, are shown in the figure. Looking at the figures, let us ask this question to ourselves: what does change with “x”? We know that string particle is not moving in x-direction. Definitely, an expression involving change in “x” does not represent motion of a particle. 
+</para>  
+
+<para id="element-86"> 
+<figure id="fig-86">
+<title> Wave motion </title>
+<media id="idp4083936" alt=""><image src="../../media/waves7.gif" mime-type="image/gif"/></media>
+<caption>  The snapshots at different time instants. </caption>
+</figure>
+</para>  
+
+<para id="element-87">Looking closely at the figure, we note that a disturbance shown by letter “A” has moved in the positive x-direction at the successive time instants. We can make the same observation with respect to the maximum displacement at “B”. These markings at “A” and “B” here show the amount of disturbance i.e. displacement in y- direction. They have actually moved to right in the successive snapshots. Key here is to understand that we are talking about disturbance represented by letters “A” and “B” – not the particles at those points. We should keep in our mind that string particle has no lateral movement in x-direction. Keeping this in our mind, we can say that motion in x-direction, as described by the wave function, represents motion of a disturbance or more sophistically the motion of a wave. As such, the speed of wave is given by :
+</para>  
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>  
+<para id="element-89">This expression gives the speed of the “disturbance” or plainly speaking “wave”. In other words, mathematical representation of wave (energy) is equivalent to the motion of "disturbance". This concept of wave motion is further verified by emphasizing that the argument of sinusoidal function is constant for a given “disturbance” as it travels in x-direction (Note that we are observing motion of a particular disturbance). This implies :
+</para>  
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>v</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mtext>constant</m:mtext>
+  </m:mrow>
+</m:math>
+</para>  
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>v</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mtext>constant</m:mtext>
+  </m:mrow>
+</m:math>
+</para>  
+<para id="element-92">Differentiating with respect to “x”, 
+</para> 
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>k</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+
+</para> 
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para><para id="element-864">We can look at wave motion in yet another way. It can be considered to be the motion of the “wave form” or “the shape of the disturbance”. Look at the figure below. A wave form at an instant is displaced by a distance “∆x” in time interval “∆t”. The speed, at which this wave form is moving, is again obtained by the ratio of displacement in x-direction and time interval or as the time derivative of “x”.
+
+</para>   
+</section><para id="element-646"><figure id="fig-646">
+<title> Wave motion </title>
+<media id="idp11765040" alt=""><image src="../../media/waves8.gif" mime-type="image/gif"/></media>
+<caption>  The snapshots at different time instants. </caption>
+</figure></para>
+  </content>
+  
+</document>

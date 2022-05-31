@@ -1,0 +1,763 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Simple harmonic motion</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>222ec3f9-3cff-475a-b0aa-8d70be0d0082</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Oscillation is a periodic motion, which repeats after certain time interval. Simple harmonic motion is a special type of oscillation. In real time, all oscillatory motion dies out due to friction, if left unattended. We, therefore, need to replenish energy of the oscillatory motion to continue oscillating. However, we shall generally consider an ideal situation in which mechanical energy of the oscillating system is conserved. The object oscillates indefinitely. This is the reference case.
+</para>
+<para id="element-2">Though, we refer an object or body to describe oscillation, but it need not be. We can associate oscillation to energy, pattern and anything which varies about some value in a periodic manner. The oscillation, therefore, is a general concept. We shall, however, limit ourselves to physical oscillation, unless otherwise mentioned.
+</para>
+<para id="element-3">Further, study of oscillation has two distinct perspectives. One is the description of motion i.e. the kinematics of the motion. Second is the study of the cause of oscillation i.e. dynamics of the motion. In this module, we shall deal with the first perspective.
+</para>
+<para id="element-4"><definition id="definition-4"><term> Oscillation </term>
+<meaning id="idp13488720"> Oscillation is a periodic, to and fro, bounded motion about a reference, usually the position of equilibrium.</meaning>
+</definition>
+
+ 
+</para>
+<para id="element-5">
+<figure id="fig-5"><title> Examples of oscillation </title>
+<media id="idp13181408" alt=""><image src="../../media/shm1a.gif" mime-type="image/gif"/></media>
+<caption> The object undergoes "to and fro" periodic motion.</caption>
+</figure>
+</para>
+<para id="element-6">The characteristics of oscillation are enumerated here :
+</para>
+<para id="element-6a">
+<list id="list-6a" list-type="bulleted">
+<item> It is a periodic motion that repeats itself after certain time interval. </item>
+<item> The motion is about a point, which is often the position of equilibrium. </item>
+<item> The motion is bounded.</item>
+</list>
+</para>
+<para id="element-7">Note that revolution of second hand in the wrist watch is not an oscillation as the concept of “to and fro” motion about a point is missing. Thus, this is a periodic motion, but not an oscillatory motion. On the other hand, periodic swinging of pendulum in mechanical watch is an oscillatory motion.
+</para>
+<section id="section-1">
+<title>Description of oscillation</title>
+<para id="element-8">We need a mathematical model to describe oscillation. We often use trigonometric functions. However, we can not use all of them. It is essentially because many of them are not bounded. Recall the plot of tangent function. It extends from minus infinity to plus infinity - periodically. Actually, only the sine and cosine trigonometric functions are bounded.
+</para>
+<para id="element-9">
+The plot of tangent function is shown here. Note that value of function extends from minus infinity to plus infinity. 
+</para>
+<para id="element-10"><figure id="fig-10">
+<title> Plot of tangent function </title>
+<media id="idp13572224" alt=""><image src="../../media/shm2a.gif" mime-type="image/gif"/></media>
+<caption> The function is not bounded.</caption>
+</figure>
+</para>
+<para id="element-11">The plots of sine and cosine functions are shown here. Note that value of function lies between "-1" and "1". 
+</para>
+<para id="element-12"><figure orient="horizontal" id="fig-12">
+<title> Plots of sine and cosine functions </title>
+<subfigure id="fig-12a">
+<media id="idp179344" alt=""><image src="../../media/shm3a.gif" mime-type="image/gif"/></media>
+<caption> The sine function is bounded.</caption>
+</subfigure>
+<subfigure id="fig-12b">
+<media id="idp13514752" alt=""><image src="../../media/shm4a.gif" mime-type="image/gif"/></media>
+<caption> The cosine function is bounded. </caption>
+</subfigure>
+</figure>
+</para>
+<section id="section-1a">
+<title>Harmonic oscillation</title>
+<para id="element-13"> 
+</para>
+<para id="element-14">Harmonic oscillation and simple harmonic oscillation both are described by a single bounded trigonometric function like sine or cosine function having single frequency (it is the number of times a motion is repeated in 1 second). The difference is only that simple harmonic function has constant amplitude over all time (amplitude represents maximum displacement from central or mean position of the periodic motion) as a result of which mechanical energy of the oscillating system is conserved. 
+</para>
+<para id="element-15">Examples of harmonic motion are :
+</para>
+<para id="element-16">
+<list id="list-16" list-type="bulleted">
+<item> <m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math></item>
+<item> <m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math></item>
+<item> <m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math> </item>
+<item> <m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math> </item>
+</list>
+</para>
+<para id="element-17">Of these, last three examples are simple harmonic oscillations.
+</para>
+<para id="element-18">Note that we can reduce fourth example, sum of two trigonometric functions, into a single trigonometric function with appropriate substitutions. As a matter of fact, we shall illustrate such reduction in appropriate context. 
+</para>
+<para id="element-19">The simple harmonic oscillation is popularly known as simple harmonic motion (SHM). The important things to reemphasize here is that SHM denotes an oscillation, which does not involve change in amplitude. We shall learn that this represents a system in which energy is not dissipated. It means that mechanical energy of a system in SHM is conserved.
+</para>
+</section>
+<section id="section-1b">
+<title>Non-harmonic oscillation </title>
+<para id="element-20">A non-harmonic oscillation is one, which is not harmonic motion. We can consider combination of two or more harmonic motions of different frequencies as an illustration of non-harmonic function. 
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">We can not reduce this sum into a single trigonometric sine or cosine function and as such, motion described by the function is non-harmonic.
+</para>
+</section>
+</section>
+<section id="section-2">
+<title>Simple harmonic motion </title>
+<para id="element-23">A simple harmonic motion can be conceived as a “to and fro” motion along an axis (say x-axis). In order to simplify the matter, we choose origin of the reference as the point about which particle oscillates. If we start our observation from positive extreme of the motion, then displacement of the particle “x” at a time “t” is given by :
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">where “ω” is angular frequency and “t” is the time. The figure here shows the positions of the particle executing SHM at an interval of “T/8”. The important thing to note here is that displacements in different intervals are not equal, suggesting that velocity of the particle is not uniform. This also follows from the nature of cosine function. The values of cosine function are not equally spaced with respect to angles.  
+</para>
+<para id="element-26">
+<figure id="fig-26">
+<title> Simple harmonic motion </title>
+<media id="idp9367712" alt=""><image src="../../media/shm5.gif" mime-type="image/gif"/></media>
+<caption> Positions of the particles at different times are shown.</caption>
+</figure>
+</para>
+<section id="section-2a">
+<title>Amplitude </title>
+<para id="element-27">We know that value of cosine function lies between “-1” and “1”. Hence, value of “x” varies between “-A” and “A”. If we plot the function describing displacement, then the plot is similar to that of cosine function except that its range of values lies between “-A” and “A”.
+</para>
+<para id="element-28">
+<figure id="fig-28">
+<title> Amplitude </title>
+<media id="idp8790960" alt=""><image src="../../media/shm6.gif" mime-type="image/gif"/></media>
+<caption> The scalar value of maximum displacement from the mean position is known as the amplitude of oscillation. </caption>
+</figure>
+</para>
+<para id="element-29">The value “A” denotes the maximum displacement in either direction. The scalar value of maximum displacement from the mean position is known as the amplitude of oscillation. If we consider pendulum, we can observe that farther is the point from which pendulum bob (within the permissible limit in which the bob executes SHM) is released, greater is the amplitude of oscillation. Similarly, greater is the stretch or compression in the spring executing SHM, greater is the amplitude. Alternatively, we can say that greater is the force causing motion, greater is the amplitude. In the nutshell, amplitude of SHM depends on the initial conditions of motion - force and displacement.
+</para>
+</section>
+<section id="section-2b">
+<title>Time period </title>
+<para id="element-30">The time period is the time taken to complete one cycle of motion. In our consideration in which we have started observation from positive extreme, this is equal to time taken from start t =0 s to the time when the particle returns to the positive extreme position again.
+</para>
+<para id="element-31"><m:math display="block">
+  <m:mrow>
+    <m:mtext>At</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>0</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>At</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1,</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">Thus, we see that particle takes a time “2π/ω” to return to the extreme position from which motion started. Hence, time period of SHM is :
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>ν</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>ν</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-3">
+<title>SHM and uniform circular motion </title>
+<para id="element-37">The expression for the linear displacement in “x” involves angular frequency :
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">Clearly, we need to understand the meaning of angular frequency in the context of linear “to and fro” motion. We can understand the connection or the meaning of this angular quantity knowing that SHM can be interpreted in terms of uniform circular motion. Consider SHM of a particle along x-axis, while another particle moves along a circle at a uniform angular speed, "ω", in anticlockwise direction as shown in the figure. Let both particles begin moving from point “P” at t=0. 
+</para>
+<para id="element-41">
+<figure id="fig-41">
+<title> SHM and UCM </title>
+<media id="idp19941984" alt=""><image src="../../media/shm7.gif" mime-type="image/gif"/></media>
+<caption> The displacement of particle in SHM is equal to projection of position of particle in UCM. </caption>
+</figure>
+</para>
+<para id="element-42">After time “t”, the particle executing uniform circular motion (UCM), covers an angular displacement “ωt” and reaches a point “Q” as shown in the figure. The projection of line joining origin, "O" and “Q” on x – axis is :
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>O</m:mi>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">Now compare this expression with the expression of displacement of particle executing SHM. Clearly, both are same. It means projection of the position of the particle executing UCM is equal to the displacement of the particle executing SHM from the origin. This is the connection between two motions. Also, it is obvious that angular frequency “ω” is equal to the uniform angular speed, “ω" of the particle executing UCM . 
+</para>
+<para id="element-38a">In case, if this analogical interpretation does not help to interpret angular frequency, then we can simply think that angular frequency is product of “2π” and frequency “ν”.
+</para>
+<para id="element-38b"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>ν</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-4">
+<title>Phase constant </title>
+<para id="element-44">We used a cosine function to represent displacement of the particle in SHM. This function represents displacement for the case when we start observing motion of the particle at positive extreme. At t = 0,
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>0</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">What if we want to observe motion from the position when the particle is at mean position i.e. at “O”. We know that sine of zero is zero. Knowing the nature of sine curve, we can ,intuitively, say that sine function would fit in the requirement in this case and displacement is given as :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">However, if we want to stick with the cosine function, then there is a way around. We know that :
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>±</m:mo>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-50">Keeping this in mind, we represent the displacement as :
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>±</m:mo>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">Let us check out the position of the particle at t = 0,
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>±</m:mo>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">Clearly, cosine function represents displacement with this modification even in case  when we start observing motion of the particle at mean position. In other words, cosine function, as modified, is equivalent to sine function. </para>
+<para id="element-529">We see that adding or subtracting “π/2” serves the purpose. When we add the angle “π/2”, the position of particle, at mean position, is ahead of positive extreme. The particle has moved from the positive extreme to the mean position. When we subtract the angle “-π/2”, the particle, at mean position, lags behind the position at positive extreme.  In other words, the particle has moved from the negative extreme to the mean position.
+</para><para id="element-55">Here, we note that “ωt” is dimensionless angle and is compatible with the angle being added or subtracted :
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>T</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mi>T</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mtext>dimensionless</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">Representation of displacement from positions other than extreme position in this manner gives rise to an important concept of “phase constant” . The angle being added or subtracted to represent change in start position is also known as  "phase constant" or “phase angle” or “initial phase” or “epoch”. This concept allows us to represent displacement whatever be the initial condition (position and direction of velocity – whether particle is moving towards the positive extreme (negative phase constant) or moving away from the positive extreme (positive phase constant). For an intermediate position, we can write displacement as :
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59">Note that we have purposely removed negative sign as we can alternatively say that phase constant has positive or negative value, depending on its state of motion at t = 0. The concept of phase constant will be more clearer if we study the plots of the motion for phase "0", “φ” and “-φ” as illustrated in the figure below. 
+</para>
+<para id="element-60">
+<figure id="fig-60"><title> Phase constant </title>
+<media id="idp6404784" alt=""><image src="../../media/shm8a.gif" mime-type="image/gif"/></media>
+<caption> Illustration of different phase constants </caption>
+</figure>
+</para>
+<para id="element-61">The figure here captures the meaning of phase constant. Let us begin with the uppermost row of figures. We start observing motion from positive extreme (left figure), phase constant is zero. The displacement is maximum “A”. The particle is moving from positive extreme position to negative extreme (middle figure). The equivalent particle, executing uniform circular motion, is at positive extreme (right figure). 
+</para>
+<para id="element-62">In the middle row of the figures, we start observing motion, when the particle is between positive extreme and mean position (left figure), but moving away from the positive extreme. Here, phase constant is positive. The displacement is not equal to amplitude. Actually, maximum displacement event is already over, when we start observation (middle figure). The particle is moving from its position to negative extreme. The equivalent particle, executing uniform circular motion, is at an angle “φ” ahead from the positive extreme position (right figure). 
+
+</para>
+<para id="element-63">In the lowermost row of the figures, we start observing motion, when the particle is between positive extreme and mean position (left figure), but moving towards the positive extreme. Here, phase constant is negative. The displacement is not equal to amplitude. Actually, maximum displacement event is yet to be realized, when we start observation (middle figure). The particle is moving from its position to the positive extreme position. The equivalent particle, executing uniform circular motion, is at an angle “φ” behind from the positive extreme position (right figure). 
+ 
+</para>
+<para id="element-64">From the description as above, we conclude that phase constant depends on initial two attributes of the particle in motion (i) its position and (ii) its velocity (its direction of motion).
+</para>
+<para id="element-65">From the discussion, it is also clear that using either "cosine" or "sine" function is matter of choice. Both functions can equivalently be used to describe SHM with appropriate phase constant.
+</para>
+</section>
+<section id="section-5">
+<title>Phase </title>
+<para id="element-66">Simply put phase is the argument (angle) of trigonometric function used to represent displacement.  
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">The argument “ωt + φ” is the phase of the SHM. Clearly phase is an angle like “π/3” or “π/6”. Sometimes, we loosely refer phase in terms of time period like “T/4”, we need to convert the same into equivalent angle before using in the relation.
+</para>
+<para id="element-69">The important aspect of phase is that if we know phase of a SHM, we know a whole lot of things about SHM. By evaluating expression of phase, we know (i) initial position (ii) direction of motion (iii) frequency and angular frequency (iv) time period and (v) phase constant.
+</para>
+<para id="element-70">Consider a SHM equation (use SI units) :
+</para>
+<para id="element-71"><m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>π</m:mi>
+            <m:mi>t</m:mi>
+          </m:mrow>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+        <m:mo>-</m:mo>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>6</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">Clearly,
+</para>
+<para id="element-73">At t = 0,
+</para>
+<para id="element-74"><m:math display="block">
+  <m:mrow>
+    <m:mtext>Initial position</m:mtext>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+        <m:mi>X</m:mi>
+        <m:mn>0</m:mn>
+        <m:mo>-</m:mo>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>6</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>6</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+        <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+        <m:mo>-</m:mo>
+    <m:mn>0.5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-225">Further,</para><para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Amplitude</m:mtext>
+    <m:mo>,</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-76"><m:math display="block">
+  <m:mrow>
+    <m:mtext>Angular frequency</m:mtext>
+    <m:mo>,</m:mo>
+        <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Time period</m:mtext>
+    <m:mo>,</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>6</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para><para id="element-220"><m:math display="block">
+  <m:mrow>
+    <m:mtext>Phase constant</m:mtext>
+    <m:mo>,</m:mo>
+        <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+        <m:mn>π</m:mn>
+        <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>radian</m:mi>
+  </m:mrow>
+</m:math>
+
+</para><para id="element-474">As phase constant is negative, the particle is moving towards positive extreme position.</para>
+</section>
+
+
+  </content>
+  
+</document>

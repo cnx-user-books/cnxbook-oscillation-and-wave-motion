@@ -1,0 +1,2851 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Transverse harmonic waves</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>604bca3f-edd7-42d0-9082-8942caa6704c</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">In this module, we shall consider wave motion resulting from harmonic vibrations. We shall discuss harmonic transverse wave in the context of a string. We assume that there is no loss of energy during transmission of wave along the string. This can be approximated when the string is light and taught. In such condition if we oscillate the free end in harmonic manner, then the vibrations in the string are simple harmonic motion perpendicular to the direction of wave motion. The amplitude of wave form remains intact through its passage along the string
+</para>
+<section id="section-1">
+<title>Harmonic wave function</title>
+<para id="element-2">
+We know that a wave function representing motion in x-direction has the form :
+</para>
+<para id="element-3">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>b</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-4">For the case of harmonic vibration, we represent harmonic wave motion in terms of either harmonic sine or cosine function :
+</para>
+<para id="element-5">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-6">The argument of trigonometric function “kx-ωt” denotes the phase of the wave function. The phase identifies displacement (disturbance) at a particular position and time. For a particular displacement in y-direction, this quantity is a constant :
+</para>
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+ 
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+        <m:mo>=</m:mo>
+        <m:mtext>constant</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-8">where “k” is known as wave number. Its unit is radian/ meter so that the terms in the expression are consistent. Importantly, “k” here is not spring constant as used in the description of SHM. 
+</para>
+<section id="section-1a">
+<title>Amplitude</title>
+<para id="element-9">
+The amplitude is the maximum displacement on either side of mean position and is a positive quantity. Since sine or cosine trigonometric functions are bounded between “-1” and “1”, the y-displacement is bounded between “-A” and “A”. 
+</para>
+</section>
+<section id="section-1b">
+<title>Harmonic oscillatory properties</title>
+<para id="element-10">
+Each particle (or a small segment of string) vibrates in simple harmonic motion. The particle attains the greatest speed at the mean position and reduces to zero at extreme positions. On the other hand, acceleration of the particle is greatest at extreme positions and zero at the mean position. The vibration of particle is represented by a harmonic sine or cosine function. For x=0 :
+</para>
+<para id="element-11"><m:math display="block">
+  <m:mrow>
+  <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>=</m:mo>
+        <m:mn>0,</m:mn>
+        <m:mi>t</m:mi>
+        <m:mo>=</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-12">
+Clearly, the displacement in y-direction is described by the bounded sine or cosine function. The important point here is to realize that oscillatory attributes (like time period, angular and linear frequency) of wave motion is same as that of vibration of a particle in transverse direction. We know that time period in SHM is equal to time taken by the particle to complete one oscillation. It means that displacement of the particle from the mean position at a given position such as x=0 has same value after time period “T” :
+</para>
+<para id="element-13">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>=</m:mo>
+        <m:mn>0,</m:mn>
+        <m:mi>t</m:mi>
+        <m:mo>=</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>=</m:mo>
+        <m:mn>0,</m:mn>
+        <m:mi>t</m:mi>
+        <m:mo>=</m:mo>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>T</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>T</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>T</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-15">
+We know that sine of an angle repeats after every “2π” angle. Therefore, the equality given above is valid when :
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">The linear frequency is given by :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>ω</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+<section id="section-1c">
+<title>Wavelength and wave number</title>
+<para id="element-20">Wavelength is unique to the study of wave unlike frequency and time period, which is common to oscillatory motion of a particle of the string.
+</para>
+<para id="element-21">The wavelength is equal to linear distance between repetitions of transverse disturbance or phase. In terms of the speed of the wave, the wavelength of a wave is defined as the linear distance traveled by the wave in a period during which one cycle of transverse vibration is completed. We need to emphasize here that we can determine this wave length by choosing any point on the wave form. Particularly, it need not be a crest or trough which is otherwise a convenient reference point for measuring wavelength. For example, we can consider points A, B and C as shown in the figure. After a time period, T, points marked A’, B’ and C’ are at a linear distance of a wavelength, denoted by “λ”. Clearly, either of linear distances AA’ or BB’ or CC’ represents the wavelength.
+</para>
+<para id="element-22">
+<figure id="fig-22">
+<title> Wavelength</title>
+<media id="idp14650064" alt=""><image src="../../media/th1.gif" mime-type="image/gif"/></media>
+<caption> The wavelength is equal to linear distance between repetitions of transverse disturbance or phase. </caption>
+</figure>
+
+</para>
+<para id="element-23">It should be clearly understood that repetition of phase (displacement) is not identified by the magnitude of displacement alone. In the figure shown below, the points “A”, “B” and ”C” have same y-displacements. However, the phase of the waveform at “B” is not same as that at “A”. Note that sense of vibration at “A” and “B” are different (As a matter of fact, the particle at "A" is moving down whereas particle at "B" is moving upward. We shall discuss sense of vibrations at these points later in the module). Since phase is identified by the y-displacement and sense of vibration at a particular position, we need to compare the sense along with the magnitude of y-displacement as well to find the wavelength on a waveform. The wavelength, therefore, is equal to linear distance between positions of points “A” and “C”.
+</para>
+<para id="element-24"> 
+<figure id="fig-24">
+<title> Wavelength</title>
+<media id="idp6172272" alt=""><image src="../../media/th2.gif" mime-type="image/gif"/></media>
+<caption> The wavelength is equal to linear distance between repetitions of transverse disturbance or phase. </caption>
+</figure>
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>λ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">Mathematically, let us consider y-displacement at a position specified by x=x. At time t = 0, the y-displacement is given by :
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>=</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+        <m:mo>=</m:mo>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-28">According to definition of wavelength, the y-displacement is same at a further distance “λ”. It means that :
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>=</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+        <m:mo>=</m:mo>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>=</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>λ</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+        <m:mo>=</m:mo>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>λ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>k</m:mi>
+        <m:mi>λ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-31">The equality given above is valid when :
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>λ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>λ</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+<section id="section-1d">
+<title>Speed of transverse harmonic wave</title>
+<para id="element-34">We can determine speed of the wave by noting that wave travels a linear distance “λ” in one period (T). Thus, speed of wave is given by :</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>λ</m:mi>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>ν</m:mi>
+    <m:mi>λ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>π</m:mi>
+          </m:mrow>
+          <m:mi>k</m:mi>
+        </m:mfrac>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>π</m:mi>
+          </m:mrow>
+          <m:mi>ω</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>ω</m:mi>
+      <m:mi>k</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-36">It is intuitive to use the nature of phase to determine wave speed. We know that phase corresponding to a particular disturbance is a constant :
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mtext>constant</m:mtext>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-38">Speed of wave is equal to time rate at which disturbance move. Hence, differentiating with respect to time,
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>k</m:mi>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mo>ⅆ</m:mo>
+          <m:mi>x</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mo>ⅆ</m:mo>
+          <m:mi>t</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>−</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-40">Rearranging, we have :
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mo>ⅆ</m:mo>
+          <m:mi>x</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mo>ⅆ</m:mo>
+          <m:mi>t</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>ω</m:mi>
+      <m:mi>k</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">Here, “ω” is a SHM attribute and “k” is a wave attribute. Clearly, wave speed is determined by combination of SHM and wave attributes. 
+</para>
+</section>
+<example id="example-42">
+<para id="element-43"><term>Problem : </term>The equation of harmonic wave is given as :
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0.02</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mo>{</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>24</m:mn>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-45">All units are SI units. Determine amplitude, frequency, wavelength and wave speed
+</para>
+<para id="element-46"><term>Solution : </term>Simplifying given equation :
+</para>
+<para id="element-47"><m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0.02</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mo>{</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>12</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>24</m:mn>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0.02</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-48">
+Comparing given equation with standard equation :
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-50">
+Clearly, we have :
+</para>
+<para id="element-800"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.02</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+
+  </m:mrow>
+</m:math>
+</para><para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>H</m:mi>
+    <m:mi>z</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">Also,
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>λ</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>λ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-56">
+Wave speed is given as :
+</para>
+<para id="element-57"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>ω</m:mi>
+      <m:mi>k</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+
+    <m:mfrac>
+  <m:mrow>
+    <m:mn>8</m:mn>
+      <m:mi>π</m:mi>
+  </m:mrow>
+      <m:mn>0.5</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>16</m:mn>
+    <m:mi>π</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfrac>
+      <m:mi>m</m:mi>
+      <m:mi>s</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</example>
+<section id="section-1e">
+<title>Initial phase</title>
+<para id="element-58">At x=0 and t =0, the sine function evaluates to zero and as such y-displacement is zero. However, a waveform can be such that y-displacement is not zero at x=0 and t=0. In such case, we need to account for the displacement by introducing an angle like :
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">
+where “φ” is initial phase. At x=0 and t=0,
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0,</m:mn>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-62">The measurement of angle determines following two aspects of wave form at x=0, t=0 : (i) whether the displacement is positive or negative and (ii) whether wave form has positive or negative slope. 
+</para>
+<para id="element-63">
+For a harmonic wave represented by sine function, there are two values of initial phase angle for which displacement at reference origin (x=0,t=0) is positive and has equal magnitude. We know that the sine values of angles in first and second quadrants are positive. A pair of initial phase angles, say φ = π/3 and 2π/3, correspond to equal positive sine values as :
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>-</m:mo>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>π</m:mi>
+          </m:mrow>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65a">We can determine the slope of the waveform by partially differentiating y-function with respect to "x" (considering "t" constant) :
+</para>
+<para id="element-65b">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mo>∂</m:mo>
+          <m:mi>y</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mo>∂</m:mo>
+          <m:mi>t</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mo>∂</m:mo>
+        </m:mrow>
+        <m:mrow>
+          <m:mo>∂</m:mo>
+          <m:mi>t</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>w</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-65c">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>At</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-65d">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Slope</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mtext>a positive number</m:mtext>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-65e">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>At</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-65f"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Slope</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mtext>a negative number</m:mtext>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-66">
+The smaller of the two (π/3) in first quadrant indicates that wave form has positive slope and is increasing as we move along x-axis. The greater of the two (2π/3) similarly indicates that wave form has negative slope and is decreasing as we move along x-axis. The two initial wave forms corresponding to two initial phase angles in first and second quadrants are shown in the figure below.
+</para>
+<para id="element-67"> 
+<figure id="fig-67">
+<title> Initial phase </title>
+<media id="idp17000832" alt=""><image src="../../media/th3.gif" mime-type="image/gif"/></media>
+<caption> Initial phase angles in first and second quadrant. </caption>
+</figure>
+</para>
+<para id="element-68">We can interpret initial phase angle in the third and fourth quadrants in the same fashion. The sine values of angles in third and fourth quadrants are negative. There is a pair of two angles for which sine has equal negative values. The angle in third quarter like 4π/3 indicates that wave form has negative slope and is further decreasing (more negative) as we move along x-axis. On the other hand, corresponding angle in fourth quadrant for which magnitude is same is 5π/3.
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-70">For initial phase angle of 5π/3 in fourth quadrant, the wave form has positive slope and is increasing (less negative) as we move along x-axis. The two initial wave forms corresponding to two initial phase angles in third and fourth quadrants are shown in the figure below.
+</para>
+<para id="element-71"> 
+<figure id="fig-71">
+<title> Initial phase </title>
+<media id="idp14601232" alt=""><image src="../../media/th4.gif" mime-type="image/gif"/></media>
+<caption> Initial phase angles in third and fourth quadrant. </caption>
+</figure>
+</para>
+<para id="element-72">We can also denote initial phase angles in third and fourth quadrants (angles greater than “π”) as negative angles, measured clockwise from the reference direction. The equivalent negative angles for the example here are :
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>4</m:mn>
+            <m:mi>π</m:mi>
+          </m:mrow>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74">and
+</para>
+<para id="element-75"><m:math display="block">
+  <m:mrow>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>5</m:mn>
+            <m:mi>π</m:mi>
+          </m:mrow>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+</section>
+<section id="section-2">
+<title>Particle velocity and acceleration</title>
+<para id="element-76">Particle velocity at a given position x=x  is obtained by differentiating wave function with respect to time “t”. We need to differentiate equation by treating “x” as constant. The partial differentiation yields particle velocity as :
+
+
+
+
+
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>p</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-78">We can use the property of cosine function to find the maximum velocity. We obtain maximum speed when cosine function evaluates to “-1” :
+
+
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>p</m:mi>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-80">The acceleration of the particle is obtained by differentiating expression of velocity partially with respect to time  :
+
+
+</para>
+<para id="element-81"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>p</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>p</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>{</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-82">Again the maximum value of the acceleration can be obtained using property of sine function :
+
+
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>p</m:mi>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<section id="section-2a">
+<title>Relation between particle velocity and wave (phase) speed</title>
+<para id="element-84">
+
+We have seen that particle velocity at position “x” and time “t” is obtained by differentiating wave equation with respect to “t”, while keeping time “x” constant :
+
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>p</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-86">On the other hand, differentiating wave equation with respect to “x”, while keeping “t”, we have :
+
+
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-88">The partial differentiation gives the slope of wave form. Knowing that speed of the wave is equal to ratio of angular frequency and wave number, we divide first equation by second :
+
+
+</para>
+<para id="element-89"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>p</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mo>∂</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mo>∂</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>ω</m:mi>
+      <m:mi>k</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:msub>
+        <m:mi>v</m:mi>
+        <m:mi>p</m:mi>
+      </m:msub>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>v</m:mi>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mo>∂</m:mo>
+          <m:mi>y</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mo>∂</m:mo>
+          <m:mi>x</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-91">At a given position “x” and time “t”, the particle velocity is related to wave speed by this equation. Note that direction of particle velocity is determined by the sign of slope as wave speed is a positive quantity. We can interpret direction of motion of the particles on the string by observing “y-x” plot of a wave form. We know that “y-x” plot is a description of wave form at a particular time instant. It is important to emphasize that a wave like representation does not show the motion of wave. An arrow showing the direction of wave motion gives the sense of motion. The wave form is a snapshot (hence stationary) at a particular instant. We can, however, assess the direction of particle velocity by just assessing the slope at any position x=x. See the plot shown in the figure below :
+
+
+
+</para>
+<para id="element-93">
+<figure id="fig-93">
+<title> Particle velocity </title>
+<media id="idp12870464" alt=""><image src="../../media/th5.gif" mime-type="image/gif"/></media>
+<caption> Particle velocity and slope of waveform. </caption>
+</figure>
+</para>
+<para id="element-92">The slope at “A” is positive and hence particle velocity is negative. It means that particle at this position - at the instant waveform is captured in the figure - is moving towards mean (or equilibrium) position. The slope at “B” is negative and hence particle velocity is positive. It means that particle at this position - at the instant waveform is captured in the figure - is moving towards positive extreme position. The slope at “C” is negative and hence particle velocity is positive. It means that particle at this position - at the instant waveform is captured in the figure - is moving towards mean (or equilibrium) position. The slope at “D” is positive and hence particle velocity is negative. It means that particle at this position - at the instant waveform is captured in the figure - is moving towards negative extreme position. 
+
+ 
+
+</para>
+
+<para id="element-94">We can crosscheck or collaborate the deductions drawn as above by drawing wave form at another close instant t = t+∆t. We can visualize the direction of velocity by assessing the direction in which the particle at a position has moved in the small time interval considered.
+
+ 
+
+</para>
+<para id="element-95">
+<figure id="fig-95">
+<title> Particle velocity </title>
+<media id="idp18808384" alt=""><image src="../../media/th6.gif" mime-type="image/gif"/></media>
+<caption> Particle velocity and slope of waveform. </caption>
+</figure>
+</para>
+</section>
+</section>
+
+<section id="section-3">
+<title>Different forms of wave function
+</title>
+<para id="element-96">
+Different forms give rise to a bit of confusion about the form of wave function. The forms used for describing waves are :
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-98">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-99">
+Which of the two forms is correct? In fact, both are correct so long we are in a position to accurately interpret the equation. Starting with the first equation and using trigonometric identity :
+
+
+</para>
+<para id="element-100">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+
+<para id="element-101">We have,
+
+
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-103">Thus we see that two forms represent waves moving at the same speed (<m:math>
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>k</m:mi>
+  </m:mrow>
+</m:math>). They differ, however, in phase. There is phase difference of “π”. This has implication on the waveform and the manner particle oscillates at any given time instant and position. Let us consider two waveforms at x=0, t=0. The slopes of the waveforms are :
+
+
+</para>
+<para id="element-104">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mtext>a positive number</m:mtext>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-105">and 
+
+</para>
+<para id="element-106">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mtext>a negative number</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-107a">
+<figure id="fig-107a">
+<title> Forms of wave functions </title>
+<media id="idp13524320" alt=""><image src="../../media/th8.gif" mime-type="image/gif"/></media>
+<caption> Exchange of terms in the argument of sine function results in a phase difference of π. </caption>
+</figure>
+</para>
+<para id="element-107">In the first case, the slope is positive and hence particle velocity is negative. It means particle is moving from reference origin or mean position to negative extreme position. In the second case, the slope is negative and hence particle velocity is positive. It means particle is moving from positive extreme position to reference origin or mean position. Thus two forms represent waves which differ in direction in which particle is moving at a given position. 
+</para>
+<para id="element-108">
+
+Once we select the appropriate wave form, we can write wave equation in other forms as given here :
+</para>
+<para id="element-109">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mi>ω</m:mi>
+          <m:mrow>
+            <m:mi>k</m:mi>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>λ</m:mi>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>v</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-110">
+Further, substituting for “k” and “ω” in wave equation, we have :
+
+
+</para>
+<para id="element-111">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>π</m:mi>
+          </m:mrow>
+          <m:mi>λ</m:mi>
+        </m:mfrac>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>π</m:mi>
+          </m:mrow>
+          <m:mi>T</m:mi>
+        </m:mfrac>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>λ</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mi>t</m:mi>
+          <m:mi>T</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-112">
+If we want to represent waveform moving in negative “x” direction, then we need to replace “t” by “-t”.
+</para>
+
+<example id="example-113">
+
+
+
+
+<para id="element-113"><term>Problem : </term> A wave of 50 Hz is moving along a taut string is represented by equation:
+
+
+
+</para>
+<para id="element-114">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+        <m:mo>=</m:mo>
+        <m:mn>0.001</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0.002</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>25</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-115">
+The quantities are in SI units in the equation. If the wave is moving in positive x-direction, then find the speed of the wave and initial phase. 
+</para>
+<para id="element-116"><term>Solution : </term> We observe that wave equation contains only “x” term at t = 0.001s. But time term with t=0.001 can not be zero unless there is initial phase. It means that we need to compare the given wave equation with the form containing initial phase :
+</para>
+<para id="element-117">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-118">According to question,
+
+</para>
+<para id="element-119">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>−</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>0.001</m:mn>
+    <m:mo>+</m:mo>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-120"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.001</m:mn>
+    <m:mi>ω</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-121">
+Here, we see that amplitude and wave numbers are :
+
+</para>
+<para id="element-122"><m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.002</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>25</m:mn>
+    <m:mi>π</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>rad</m:mtext>
+    <m:mo>/</m:mo>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-123">
+Clearly, we can find the speed if we know the angular frequency. Here,
+
+</para>
+<para id="element-124">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>50</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>100</m:mn>
+    <m:mi>π</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>rad</m:mtext>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-125">
+The speed of the wave is :
+
+</para>
+<para id="element-126">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>100</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>25</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-127">The initial phase is given as :
+
+</para>
+<para id="element-128">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.001</m:mn>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.001</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>100</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.1</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+
+
+</example>
+<para id="element-129"><note id="idp12284240">It may be emphasized here that the properties of string has not yet entered into our consideration. As such, the description up to this point is general to any transverse harmonic motion. </note>
+</para>
+
+</section>
+<section id="section-4">
+<title>Speed of wave along a taut string
+</title>
+<para id="element-130">
+
+The wave speed, in general, depends on the medium of propagation and its state. In the case of string wave, the wave motion along a stretched string approximates harmonic transverse wave under simplified assumptions. We consider no loss of energy as the wave moves along the string. 
+
+
+
+
+
+
+
+
+</para>
+<para id="element-131">For a simplified consideration, we assume that inertial property (mass per unit length) is small and uniform.  A light string is important as we consider uniform tension in the string for our derivation. It is possible only if the string is light. When the string changes its form, the elastic force tends to restore deformation without any loss of energy. This means that we are considering a perfectly elastic deformation.
+
+
+</para>
+<para id="element-132">The mechanical transverse wave speed on a taut string is a function of the inertial property (mass per unit length) and tension in the string. Here, we shall investigate the motion to drive an expression of speed. For this we consider a single pulse and a small element of length ∆l as shown in the figure. Let mass per unit length be μ, then the mass of the element is :
+
+ 
+
+</para>
+<para id="element-133">
+<figure id="fig-133">
+<title> Wave speed </title>
+<media id="idp10420352" alt=""><image src="../../media/th7.gif" mime-type="image/gif"/></media>
+<caption> An element of string and forces on it. </caption>
+</figure>
+
+
+
+</para>
+<para id="element-134">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>l</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-135">The small element is subjected to tensions in the string. The element does not move sideways along the circular path in the case of transverse wave motion. Rather it is the wave form which approximates to a curved path. For our mechanical analysis, however, the motion of wave is equivalent to motion of small string along the curved path having a radius of curvature “R” moving at a speed equal to the wave speed, “v”. Thus, we can analyze wave motion by assuming as if the small element is moving along a circular path for a brief period. Now, the string wave moves with constant speed and as such there is no tangential acceleration associated with the analysis. There is only centripetal acceleration in the radial direction.
+
+
+</para>
+<para id="element-136">The centripetal force is equal to the resultant of tensions on either side of the element and is given by :
+
+
+</para>
+<para id="element-137">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>T</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-138">For small angle involved, we can approximate as :
+
+</para>
+<para id="element-139">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mtext>Δ</m:mtext>
+            <m:mi>l</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>l</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-140">Combining above two equations, we have :
+
+</para>
+<para id="element-141">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>T</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>T</m:mi>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>l</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>T</m:mi>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>l</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-142">On the other hand, the centripetal force for uniform circular motion is given by :
+
+
+</para>
+<para id="element-143">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>μ</m:mi>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>l</m:mi>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-144">
+Equating two expressions of centripetal force, we have :
+
+</para>
+<para id="element-145">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>μ</m:mi>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>l</m:mi>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>T</m:mi>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>l</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-146">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>T</m:mi>
+            <m:mi>μ</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-147">It is evident from the expression that speed on the stretched string depends on inertial factor (μ) and tension in the string (T)
+</para>
+
+<section id="section-4a">
+<title>Dependencies
+</title>
+<para id="element-148">
+
+We need to create a simple harmonic vibration at the free end of the string to generate a harmonic transverse wave in the string. The frequency of wave, therefore, is determined by the initial condition that sets up the vibration. This is a very general deduction applicable to waves of all types. For example, when light wave (electromagnetic non-mechanical wave) passes through a glass of certain optical property, then speed of the light changes along with change in wavelength – not change in frequency. The frequency is set up by the orbiting electrons in the atoms, which radiates light. Thus, we see that frequency and time period (inverse of frequency) are medium independent attributes. 
+
+
+</para>
+<para id="element-149">On the other hand, speed of the wave is dependent on medium or the material along which it travels. In the case of string wave, it is dependent on mass per unit length (inertial attribute) and tension in the string. The speed, in turn, determines wavelength in conjunction with time period such that :
+
+
+
+</para>
+<para id="element-150">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>λ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+
+
+</para>
+<para id="element-151">One interesting aspect of the dependencies is that we can change wave speed and hence wavelength by changing the tension in the string. We should note here that we have considered uniform tension, which may not be realized in practice as strings have considerable mass. Cleary such situation will lead to change in speed and wavelength of the wave as it moves along the string. On the other hand, the amplitude of wave is a complex function of initial condition and the property of wave medium.
+</para>
+</section>
+<example id="example-152">
+
+<para id="element-152"><term>Problem : </term>A string wave of 20 Hz has an amplitude of 0.0002 m along a string of diameter 2 mm. The tension in the string is 100 N and mass density of the string is <m:math>
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>. Write equation describing wave moving in x-direction.
+</para>
+<para id="element-153"><term>Solution : </term> :  The equation of a wave in x-direction is given as :
+
+
+</para>
+<para id="element-154">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+  
+
+</para>
+<para id="element-155">The amplitude of wave is given. Hence,
+
+
+</para>
+<para id="element-156">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0.0002</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-157">
+Now, we need to know “k” and ”ω” to complete the equation. The frequency of the wave is given. The angular frequency, therefore, is :
+
+
+</para>
+<para id="element-158">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>3.14</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>125.6</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>radian</m:mtext>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-159">In order to determine wave number “k”, we need to calculate speed. An inspection of the unit of mass density reveals that it is volume density of the string – not linear mass density as required. However, we can convert the same to linear mass density as string is an uniform cylinder.
+
+
+</para>
+<para id="element-160">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>linear mass density</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mtext>volume mass density</m:mtext>
+    <m:mi>X</m:mi>
+    <m:mtext>cross section area</m:mtext>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-161">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>d</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3.14</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>0.002</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-162">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>6.28</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+
+
+</para>
+<para id="element-163">Putting in the expression of speed, we have :
+
+</para>
+<para id="element-164">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>T</m:mi>
+          <m:mo>/</m:mo>
+          <m:mi>μ</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>100</m:mn>
+              <m:mrow>
+                <m:mn>6.28</m:mn>
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mn>5</m:mn>
+            </m:msup>
+            <m:mn>6.28</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>39</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-165">The wave number, k, is :
+
+
+</para>
+<para id="element-166">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>ω</m:mi>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>125.6</m:mn>
+      <m:mn>39</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>3.22</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>rad</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-167">
+Substituting in the wave equation,
+
+</para>
+<para id="element-168">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0.0002</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>3.22</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>125.6</m:mn>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+
+</example>
+</section>
+
+
+  
+  </content>
+  
+</document>

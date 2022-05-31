@@ -1,0 +1,1771 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Linear SHM</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>d22f603f-8b9f-4176-90b8-f3db834fdef4</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The subject matter of this module is linear SHM – harmonic motion along a straight line about the point of oscillation. There are various physical quantities associated with simple harmonic motion. Here, we intend to have a closer look at quantities associated with SHM like velocity, acceleration, work done, kinetic energy, potential energy and mechanical energy etc. For the sake of completeness, we shall also have a recap of concepts already discussed in earlier modules.
+</para>
+<para id="element-2">The SHM force relation “F = -kx” is a generic form of equation for linear SHM – not specific to block-spring system. In the case of block-spring system, “k” is the spring constant. This point is clarified to emphasize that relations that we shall be developing in this module applies to all linear SHM and not to a specific case. 
+</para>
+<para id="element-3">Since displacement of SHM can be represented either in cosine or sine forms, depending where we start observing motion at t = 0. For someone, it is easier to visualize beginning of SHM, when particle is released from positive extreme. On the other hand, expression in sine form is convenient as particle is at the center of oscillation at t = 0. For this reason, some prefer sine representation. 
+</para>
+<para id="element-4">The very fact that there are two ways to represent displacement may pose certain ambiguity or uncertainty in mind. We shall , therefore, strive to maintain complete independence of forms with the understanding that when it is cosine function, then starting reference is positive extreme and if it is sine function, then starting reference is center of oscillation. In order to illustrate flexibility, we shall be using “sine” expression of displacement in this module instead of cosine function, which has so far been used.
+</para>
+
+<section id="section-1">
+<title>Displacement</title>
+<para id="element-6">The displacement of the particle is given by :
+</para>
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-8">where “A” is the amplitude,"ω" is angular frequency, “φ” is the phase constant and “ωt + φ” is the phase. Clearly, displacement is periodic with respect to time as it is represented by bounded trigonometric function. The displacement “x” varies between “-A” and “A”. 
+</para>
+</section>
+<section id="section-2">
+<title>Velocity</title>
+<para id="element-9">The velocity of the particle as obtained from the solution of SHM equation is given by :
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>−</m:mo>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-11">This is the relation of velocity of the particle with respect to displacement along the path of oscillation, bounded between “-ωA” and “ωA”. We can obtain a relation of velocity with respect to time by substituting expression of displacement “x” in the above equation :
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>−</m:mo>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:msup>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>sin</m:mi>
+        <m:msup>
+          <m:mi/>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>ω</m:mi>
+            <m:mi>t</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>φ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-13">We can ,alternatively, deduce this expression by differentiating displacement, “x”, with respect to time :
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mo>ⅆ</m:mo>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">The variation of velocity with respect to time is sinusoidal and hence periodic.  Here, we draw both displacement and velocity plots with respect to time in order to compare how velocity varies as particle is at different positions. 
+</para>
+<para id="element-16">
+<figure id="fig-16">
+<title> Velocity - time plot </title>
+<media id="idm13961536" alt=""><image src="../../media/lshm1.gif" mime-type="image/gif"/></media>
+<caption> The velocity is represented by cosine function.</caption>
+</figure>
+</para>
+<para id="element-17">The upper figure is displacement – time plot, whereas lower figure is velocity – time plot. We observe following important points about variation of velocity :
+</para>
+<para id="element-18">
+<list id="list-18" list-type="bulleted">
+<item> If displacement is sine function, then velocity function is cosine function and vice-versa. </item>
+<item> The range of velocity lies between “-ωA” and “ωA”.  </item>
+<item> The velocity attains maximum value two times in a cycle at the center – (i) moving from negative to positive extreme and then (ii) moving from positive to negative extreme.  </item>
+<item> The velocity at extreme positions is zero. </item>
+</list>
+</para>
+</section>
+<section id="section-3">
+<title>Acceleration</title>
+<para id="element-19">The acceleration in linear motion is given as :
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>k</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">Substituting for displacement “x”, we get an expression in variable time, “t” :
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">We can obtain this relation also by differentiating displacement function twice or by differentiating velocity function once with respect to time. Few important points about the nature of acceleration should be kept in mind :
+</para>
+<para id="element-24"><term>1: </term> Acceleration changes its direction about point of oscillation. It is always directed towards the center whatever be the position of the particle executing SHM.
+</para>
+<para id="element-25"><term>2: </term>  Acceleration linearly varies with negative of displacement. We have seen that force-displacement plot is a straight line. Hence, acceleration – displacement plot is also a straight line. It is positive when “x” is negative and it is negative when “x” is positive.
+</para>
+<para id="element-26"><figure id="fig-26">
+<title> Acceleration - displacement  plot </title>
+<media id="idm870928" alt=""><image src="../../media/lshm2.gif" mime-type="image/gif"/></media>
+<caption> The acceleration - displacement is a straight line bounded between two values.</caption>
+</figure>
+</para>
+<para id="element-27"><term>3: </term>  Nature of force with respect to time, however, is not linear. If we combine the expression of acceleration and displacement, then we have :
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">Here, we draw both displacement and acceleration plots with respect to time in order to compare how acceleration varies as particle is at different positions. 
+</para>
+<para id="element-30">
+<figure id="fig-30">
+<title> Acceleration - time plot </title>
+<media id="idm165440" alt=""><image src="../../media/lshm3.gif" mime-type="image/gif"/></media>
+<caption> The acceleration is represented by negative sine function.</caption>
+</figure>
+</para>
+<para id="element-31">The upper figure is displacement – time plot, whereas lower figure is acceleration – time plot. We observe following important points about variation of acceleration :
+</para>
+<para id="element-32">
+<list id="list-32" list-type="bulleted">
+<item> If displacement is sine function, then acceleration function is also sine function, but with a negative sign. </item>
+<item> The range of acceleration lies between “<m:math>
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>” and “<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>”.  </item>
+<item> The acceleration attains maximum value at the extremes.  </item>
+<item> The acceleration at the center is zero. </item>
+</list>
+</para>
+<para id="element-33"><term>4: </term>  Since force is equal to product of mass and acceleration, F = ma, it is imperative that nature of force is similar to that of acceleration. It is given by :
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-4">
+<title>Frequency, angular frequency and time period</title>
+
+<para id="element-36">The angular frequency is given by :
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>k</m:mi>
+            <m:mi>m</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mfrac>
+          <m:mi>a</m:mi>
+          <m:mi>x</m:mi>
+        </m:mfrac>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mtext>acceleration</m:mtext>
+          </m:mrow>
+          <m:mrow>
+            <m:mtext>displacement</m:mtext>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-859">We have used the fact "<m:math>
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+   </m:mrow>
+</m:math>"
+ to write different relations as above.</para><para id="element-38">Time period is obtained from the defining relation :
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>m</m:mi>
+            <m:mi>k</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>a</m:mi>
+        </m:mfrac>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mtext>displacement</m:mtext>
+          </m:mrow>
+          <m:mrow>
+            <m:mtext>acceleration</m:mtext>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">Frequency is obtained from the defining relation :
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>ω</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>k</m:mi>
+            <m:mi>m</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mfrac>
+          <m:mi>a</m:mi>
+          <m:mi>x</m:mi>
+        </m:mfrac>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mtext>acceleration</m:mtext>
+          </m:mrow>
+          <m:mrow>
+            <m:mtext>displacement</m:mtext>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-5">
+<title>Kinetic energy </title>
+<para id="element-42"> The instantaneous kinetic energy of oscillating particle is obtained from the defining equation of kinetic energy as :
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">The maximum value of KE corresponds to position when speed has maximum value. At x = 0,
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mrow>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mn>0</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">The minimum value of KE corresponds to position when speed has minimum value. At x = A,
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mrow>
+        <m:mtext>min</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">By substituting for “x” in the equation of kinetic energy, we get expression of kinetic energy in terms of variable time, “t” as :
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>                                                      
+</para>
+<para id="element-50">
+The kinetic energy – time plot is shown in the figure. We observe following important points about variation of kinetic energy :
+</para>
+<para id="element-51">
+<figure id="fig-51">
+<title> Kinetic energy - time plot </title>
+<media id="idm13920688" alt=""><image src="../../media/lshm4.gif" mime-type="image/gif"/></media>
+<caption> The kinetic energy is represented by squared cosine function.</caption>
+</figure>
+</para>
+<para id="element-52"><term>1: </term> The KE function is square of cosine function. It means that KE is always positive.
+</para>
+<para id="element-53"><term>2: </term> The time period of KE is half that of displacement. We know the trigonometric identity :
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>cos</m:mi>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">Applying this trigonometric identity to the square of cosine term in the expression of kinetic energy as :
+</para>
+<para id="element-57"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>{</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>+</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>{</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>+</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+    <m:mn>2</m:mn>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">
+Applying rules for finding time period, we know that period of function “kf(x)” is same as that of “f(x)”. Hence, period of “K” is same as that of “1 + cos (2ωt + 2φ)”. Also, we know that period of function “f(x) + a” is same as that of “f(x)”. Hence, period of “K” is same as that of “cos (2ωt + 2φ)”. Now, period of “f(ax±b)” is equal to period of “f(x)” divided by “|a|”. Hence, period of “K” is :
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Period</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">As time period of variation of kinetic energy is half, the frequency of “K” is twice that of displacement. For this reason, kinetic energy – time plot is denser than that of displacement – time plot.
+</para>
+</section>
+<section id="section-6">
+<title>Potential energy </title>
+<para id="element-61"> We recall that potential energy is an attribute of conservative force system. The first question that we need to answer is whether restoring force in SHM is a conservative force? One of the assumptions, which we made in the beginning, is that there is no dissipation of energy in SHM. It follows, then, that restoring force in SHM is a conservative force.
+</para>
+<para id="element-62">Second important point that we need to address is to determine a reference zero potential energy. We observe that force on the particle in SHM is zero at the center and as such serves to become the zero reference potential energy. Now, potential energy at a position “x” is equal to negative of the work done in taking the particle from reference point to position “x”.
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>W</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>d</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>d</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>∫</m:mo>
+    <m:mi>x</m:mi>
+    <m:mi>d</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">Integrating in the interval, we have :
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:munderover>
+    <m:mi>x</m:mi>
+    <m:mi>d</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:munderover>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">Thus, instantaneous potential energy of oscillating particle is given as :
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">The maximum value of PE corresponds to position when speed is zero. At x = A,
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mrow>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">The minimum value of PE corresponds to position when speed has maximum value. At x = 0,
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mrow>
+        <m:mtext>min</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>k</m:mi>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>0</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">By substituting for “x” in the equation of potential energy, we get expression of kinetic energy in terms of variable time, “t” as :
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74">The potential energy – time plot is shown in the figure. We observe following important points about variation of kinetic energy :
+</para>
+<para id="element-75">
+<figure id="fig-75">
+<title> Potential energy - time plot </title>
+<media id="idm6596576" alt=""><image src="../../media/lshm5.gif" mime-type="image/gif"/></media>
+<caption> The kinetic energy is represented by squared sine function.</caption>
+</figure>
+</para>
+<para id="element-76"><term>1: </term>The KE function is square of sine function. It means that PE is always positive.
+</para>
+<para id="element-79"><term>2: </term> The time period of KE is half that of displacement. We have already proved the same in the case of kinetic energy. We can extend the reason in the case of potential energy as well :
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Period</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">As time period of variation is half, the frequency of “U” is twice that of displacement. For this reason, potential energy – time plot is denser than that of displacement – time plot.
+</para>
+</section>
+<section id="section-7">
+<title>Mechanical energy </title>
+<para id="element-80">The basic requirement of SHM is that mechanical energy of the system is conserved. At any point or at any time of instant, the sum of potential and kinetic energy of the system in SHM is constant. This is substantiated by evaluating sum of two energies :
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">Using expressions involving displacement, we have :
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">The plots of kinetic, potential and mechanical energy with respect to displacement are drawn in the figure. Note that the sum of kinetic and potential energy is always a constant, which is equal to the mechanical energy of the particle in SHM.
+</para>
+<para id="element-86">
+<figure id="fig-86">
+<title> Mechanical energy - displacement plot </title>
+<media id="idp240" alt=""><image src="../../media/lshm6.gif" mime-type="image/gif"/></media>
+<caption> The sum of potential and kinetic energy is a constant.</caption>
+</figure>
+</para>
+<para id="element-87">We can also obtain expression of mechanical energy, using time dependent expressions of kinetic and potential energy as :
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>{</m:mo>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">The mechanical energy – time plot is shown in the figure. We observe following important points about variation of energy with respect to time :
+</para>
+<para id="element-92">
+<figure id="fig-92">
+<title> Mechanical energy - time plot </title>
+<media id="idm7219152" alt=""><image src="../../media/lshm7.gif" mime-type="image/gif"/></media>
+<caption> The sum of potential and kinetic energy is a constant.</caption>
+</figure>
+</para>
+<para id="element-93">
+<list id="list-93" list-type="bulleted">
+<item> Mechanical energy – time plot is a straight line parallel to time axis. This signifies that mechanical energy of particle in SHM is conserved. </item>
+<item> There is transformation of energy between kinetic and potential energy during SHM. </item>
+<item> At any instant, the sum of kinetic and potential energy is equal to <m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> or <m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>, which is equal to maximum values of either kinetic or potential energy. </item>
+</list>
+</para>
+</section>
+<section id="section-8">
+<title>Example </title>
+<para id="element-94"><term> Problem 1: </term>  The potential energy of an oscillating particle of mass “m” along straight line is given as :
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>x</m:mi>
+          <m:mo>−</m:mo>
+          <m:mi>c</m:mi>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-96">The mechanical energy of the oscillating particle is “E”. 
+</para>
+<para id="element-97">
+<list id="list-97" list-type="enumerated">
+<item> Determine whether oscillation is SHM?  </item>
+<item> If oscillation is SHM, then find amplitude and maximum kinetic energy. </item>
+</list>
+</para>
+<para id="element-98"><term> Solution : </term>  If the motion is SHM, then restoring force is a conservative force.  The potential energy is, then, defined such that :
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-100">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>b</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-101">In order to find the center of oscillation, we put F = 0. 
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>b</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>c</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-103">This means that particle is oscillating about point x = c. The displacement of the particle in that case is “x-c” – not “x”. This, in turn, means that force is proportional to negative of displacement, “x-c”. Hence, particle is executing SHM. 
+</para>
+<para id="element-104">Alternatively, put y = x-c :
+</para>
+<para id="element-105">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>b</m:mi>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-106">This means that particle is executing SHM about y = 0. This means x-c = 0, which in turn, means that particle is executing SHM about x = c.
+</para>
+<para id="element-107">The mechanical energy is related to amplitude by the relation :
+</para>
+<para id="element-108">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-109">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>E</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:msup>
+                <m:mi>ω</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-110">Now, <m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+. Hence,
+</para>
+<para id="element-111">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>E</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>b</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mi>E</m:mi>
+              <m:mi>b</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-112">The potential energy is minimum at the center of oscillation i.e. when x = c. Putting this value in the expression of potential energy, we have :
+</para>
+<para id="element-113">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mrow>
+        <m:mtext>min</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>c</m:mi>
+          <m:mo>-</m:mo>
+          <m:mi>c</m:mi>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-114">It is important to note that minimum value of potential energy need not be zero. Now, kinetic energy is maximum, when potential energy is minimum. Hence, 
+</para>
+<para id="element-115">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mrow>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mrow>
+        <m:mtext>min</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+ 
+  </content>
+  
+</document>

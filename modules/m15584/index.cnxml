@@ -1,0 +1,1171 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Angular SHM</title>
+  <metadata>
+  <md:content-id>m15584</md:content-id><md:title>Angular SHM</md:title>
+  <md:abstract/>
+  <md:uuid>71432c2f-373a-4229-8093-e1e79c246268</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Angular SHM involves “to and fro” angular oscillation of a body about a central position or orientation. The particle or the body undergoes small angular displacement about mean position. This results, when the body under stable equilibrium is disturbed by a small external torque. In turn, the rotating system generates a restoring torque, which tries to restore equilibrium.
+</para>
+<para id="element-2">Learning about angular SHM is easy as there runs a parallel set of governing equations for different physical quantities involved with the motion. Most of the time, we only need to know the equivalent terms to replace the linear counterpart in various equations. However, there are few finer differences that we need to be aware about. For example, how would be treat angular frequency “ω” and angular velocity of the oscillating body in SHM. They are different. 
+</para>
+<section id="section-1">
+<title>Restoring torque</title>
+<para id="element-3">We write restoring torque equation for angular SHM as :
+</para>
+<para id="element-4">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>τ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5">This “k” is springiness of the restoring torque. We associate “springiness” with any force or torque which follows the linear proportionality with negative displacement. For this reason, we call it “spring constant” for all system – not limited to block-spring system. In the case of simple pendulum, we associate this “springiness” to gravity. Similarly, this property can be associated with other forces like torsion, stress, pressure and many other force systems, which operate to restore equilibrium. 
+</para>
+<section id="section-1a">
+<title>Torsion constant</title>
+<para id="element-6">A common setup capable of executing angular SHM consists of a weight attached to a wire. The rigid body is suspended from one end of the wire, whereas its other end is fixed. When the rigid body is given a small angular displacement, the body oscillates about certain reference line – which corresponds to the equilibrium position. 
+</para>
+<para id="element-10">
+<figure id="fig-10">
+<title> Torsion pendulum </title>
+<media id="id7299488" alt=""><image src="../../media/ashm1.gif" mime-type="image/gif"/></media>
+<caption> The rigid body hanging from wire executes angular SHM about the position of equilibrium.</caption>
+</figure>
+</para>
+<para id="element-7">The body oscillates angularly. If we assume conservation of mechanical energy, then system oscillates with constant angular amplitude indefinitely. The whole system is known as torsion pendulum. In this case “k” of the torque equation is also known as “torsion constant”. Dropping negative sign, 
+</para>
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>τ</m:mi>
+      <m:mi>θ</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-9">Clearly, torsion constant measures the torque per radian of angular displacement. It depends on length, diameter and material of the wire.
+</para>
+</section>
+</section>
+<section id="section-2">
+<title>Equations of angular SHM</title>
+<para id="element-11">We write various equations for angular SHM without derivation – unless there is differentiating aspect involved. In general, we substitute :
+</para>
+<para id="element-12">
+<list id="list-12" list-type="enumerated"><item> Linear inertia “m” by angular inertia “I” </item>
+<item> Force, “F” by torque “τ” </item>
+<item> Linear acceleration “a” by angular acceleration, “α” </item>
+<item> Linear displacement “x” by angular displacement “θ” </item>
+<item> Linear amplitude “A” by angular amplitude “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” </item>
+<item> Linear velocity “v” by  angular velocity “<m:math>
+  <m:mrow>
+    <m:mrow>
+      <m:mo>ⅆ</m:mo>
+      <m:mi>θ</m:mi>
+    </m:mrow>
+    <m:mo>∕</m:mo>
+    <m:mrow>
+      <m:mo>ⅆ</m:mo>
+      <m:mi>t</m:mi>
+    </m:mrow>
+  </m:mrow>
+</m:math>” </item>
+</list>
+</para>
+<para id="element-13">Importantly, symbols of angular frequency (ω), spring constant (k), phase constant (φ), time period (T) and frequency (ν) remain same in the description of angular SHM.
+</para>
+<para id="element-14"><term>Angular displacement</term>
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">where “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” is the amplitude, “φ” is the phase constant and “ωt + φ” is the phase. Clearly, angular displacement is periodic with respect to time as it is represented by bounded trigonometric function. The displacement “θ” varies between “<m:math>
+  <m:mrow>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” and “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>”. 
+</para>
+<para id="element-17"><term>SHM Equation </term>
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19"><term>Angular velocity</term>
+</para>
+<para id="element-20">
+Angular velocity differs to angular frequency (ω). In the case of linear SHM, we had compared linear SHM with uniform circular motion (UCM). It was found that projection of UCM on an axis is equivalent description of linear SHM. It emerged that angular frequency is same as the magnitude of constant angular velocity of the equivalent UCM. 
+</para>
+<para id="element-21">The angular velocity of the body under angular oscillation, however, is different. Importantly, angular velocity of SHM is not constant – whereas angular frequency is constant. 
+</para>
+<para id="element-22">The angular velocity in angular SHM is obtained either as the solution of equation of motion or by differentiating expression of angular displacement with respect to time. Clearly, we need to have a different symbol to represent angular velocity in angular SHM. Let us denote this by the differential expression itself “<m:math>
+  <m:mrow>
+    <m:mrow>
+      <m:mo>ⅆ</m:mo>
+      <m:mi>θ</m:mi>
+    </m:mrow>
+    <m:mo>∕</m:mo>
+    <m:mrow>
+      <m:mo>ⅆ</m:mo>
+      <m:mi>t</m:mi>
+    </m:mrow>
+  </m:mrow>
+</m:math>”, which is not equal to “ω”.
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msubsup>
+            <m:mi>θ</m:mi>
+            <m:mrow>
+              <m:mn>0</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>-</m:mo>
+          <m:msup>
+            <m:mi>θ</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24"><term>Angular acceleration</term>
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>k</m:mi>
+      <m:mi>I</m:mi>
+    </m:mfrac>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26"><term>Torque</term>
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>τ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>I</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>I</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28"><term>Frequency, angular frequency, time period</term>
+</para>
+<para id="element-29">The angular frequency is given by :
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>k</m:mi>
+            <m:mi>I</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mtext>angular acceleration</m:mtext>
+          </m:mrow>
+          <m:mrow>
+            <m:mtext>angular displacement</m:mtext>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">
+Time period is obtained from the defining relation :
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>I</m:mi>
+            <m:mi>k</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mtext>angular displacement</m:mtext>
+          </m:mrow>
+          <m:mrow>
+            <m:mtext>angular acceleration</m:mtext>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">Frequency is obtained from the defining relation :
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>ω</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>k</m:mi>
+            <m:mi>I</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mtext>angular acceleration</m:mtext>
+          </m:mrow>
+          <m:mrow>
+            <m:mtext>angular displacement</m:mtext>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>     
+</para>
+<para id="element-35"><term>Kinetic energy</term>
+</para>
+<para id="element-36">In terms of angular displacement :
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>I</m:mi>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mi>θ</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mi>t</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>I</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>θ</m:mi>
+          <m:mrow>
+            <m:mn>0</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>θ</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>                             
+</para>
+<para id="element-38">In terms of time :
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>I</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msubsup>
+      <m:mi>θ</m:mi>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40"><term>Potential energy</term>
+</para>
+<para id="element-41">In terms of angular displacement :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>θ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>I</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>θ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>                   
+</para>
+<para id="element-43">In terms of time :
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>I</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msubsup>
+      <m:mi>θ</m:mi>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45"><term>Mechanical energy</term>
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>I</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>θ</m:mi>
+          <m:mrow>
+            <m:mn>0</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>θ</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>I</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>θ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>I</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msubsup>
+      <m:mi>θ</m:mi>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-2a">
+<title>Example</title>
+<para id="element-48"><term>Problem 1: </term> A body executing angular SHM has angular amplitude of 0.4 radian and time period of 0.1 s. If angular displacement of the body is 0.2 radian from the center of oscillation at time t = 0, then write the equation of angular displacement.
+</para>
+<para id="element-49"><term>Solution : </term> The equation of angular displacement is given by :
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">Here,
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0.4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>radian</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">Also, time period is given. Hence, we can determine angular frequency, ω, as :
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>0.1</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>π</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>radian/s</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">Putting these values, the expression of angular displacement is :
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.4</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>20</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">We, now, need to determine the phase constant for the given initial condition. At t = 0,  θ = 0.2 radian. Hence,
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0.2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0.4</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>20</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>0</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0.4</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>0.2</m:mn>
+      <m:mn>0.4</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">Putting in the expression, the angular displacement is given by :
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.4</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>20</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>6</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-3">
+<title>Moment of inertia and angular SHM</title>
+<para id="element-63">Angular SHM provides a very effective technique for measuring moment of inertia. We can have a set up of torsion pendulum for a body, whose MI is to be determined. Measuring time period of oscillation, we have :
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>I</m:mi>
+            <m:mi>k</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">Squaring both sides and arranging,
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:msup>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:msup>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">Generally, we do not use this equation in the present form as it involves unknown spring constant, “k”. Actually, we carry out experiment for measuring time period first with a regularly shaped object like a rod of known dimensions and mass. This allows us to determine spring constant as MI of the object is known. Then, we determine time period with the object whose MI is to be determined.
+</para>
+<para id="element-69">Let subscripts “1” and “2” denote objects of known and unknown MIs respectively. Then,
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:msub>
+        <m:mi>I</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-3a">
+<title>Example</title>
+<para id="element-72"><term>Problem 2: </term> A uniform rod of mass 1 kg and length 0.24 m, hangs from the ceiling with the help of a metallic wire. The time period of SHM is measured to be 2 s. The rod is replaced by a body of unknown shape and mass and the time period for the set up is measured to be 4 s. Find the MI of the body.
+</para>
+<para id="element-73"><term>Solution : </term> Let subscripts “1” and “2” denote objects of known and unknown MIs. The MI of the rod is calculated, using formula as :
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>12</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>0.24</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>12</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.0048</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>        
+      
+</para>
+<para id="element-75">The MI of the second body is given by :
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>0.0048</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>4</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mn>2</m:mn>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.0048</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>4</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0.0192</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+
+ 
+  </content>
+  
+</document>

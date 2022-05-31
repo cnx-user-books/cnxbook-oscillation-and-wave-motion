@@ -1,0 +1,1721 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Energy transmission by waves</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>a5c4c2fe-2838-4101-a757-a56115c316db</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Wave represents distributed energy. Except for standing waves, the wave transports energy along with it from one point to another. In the context of our course, we shall focus our attention to the transverse harmonic wave along a string and investigate energy being transported by it. But the discussion and results would be applicable to other transverse waves as well through a medium. For a base case, we shall consider an ideal case in which there is no loss of energy.
+
+
+
+</para>
+<para id="element-2">We supply energy by continuously vibrating the free end of taut string. This energy is transmitted by the small vibrating string element to the neighboring element following it. We can see that vibrating small elements (also referred as particle) possess energy as it oscillates (simple harmonic motion for our consideration) in the transverse direction. It can be easily visualized as in the case of SHM that the energy has two components i.e. kinetic energy (arising from motion) and potential energy (arising from position). The potential energy is elastic potential energy like that of spring. The small string element is subjected to tension and thereby periodic elongation and contraction during the cycle of oscillatory motion. 
+
+
+</para>
+<para id="element-3">There are few important highlights of energy  transport. The most important ones are :
+</para>
+<para id="element-4">
+<list id="list-4" list-type="bulleted">
+<item> The energy at the extreme positions along the string corresponds to zero energy.  </item>
+<item> The kinetic and elastic potential energies at the mean (equilibrium) position are maximum. </item>
+</list>
+	
+</para>
+<section id="section-1">
+<title>Kinetic energy</title>
+
+
+
+<para id="element-5">
+
+The velocity of string element in transverse direction is greatest at mean position and zero at the extreme positions of waveform. We can find expression of transverse velocity by differentiating displacement with respect to time.  Now, the y-displacement is given by :
+
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-7">
+Differentiating partially with respect to time, the expression of particle velocity is :
+        
+
+</para>
+<para id="element-8"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>p</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-9">In order to calculate kinetic energy, we consider a small string element of length “dx” having mass per unit length “μ”. The kinetic energy of the element is given by :
+
+
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>d</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>p</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>x</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-11">This is the kinetic energy associated with the element in motion. Since it involves squared cosine function, its value is greatest for a phase of zero (mean position) and zero for a phase of π/2 (maximum displacement). Now, we get kinetic energy per unit length, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>L</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+”, by dividing this expression with the length of small string considered  :
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>L</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>K</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+ 
+
+
+</para>
+<section id="section-1a">
+<title>Rate of transmission of kinetic energy </title>
+<para id="element-13">
+
+
+The rate, at which kinetic energy is transmitted, is obtained by dividing expression of kinetic energy by small time element, “dt” :
+
+
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>K</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-15">
+But, wave or phase speed,v, is time rate of position i.e. <m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>. Hence,
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>K</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-17">Here kinetic energy is a periodic function. We can obtain average rate of transmission of kinetic energy by integrating the expression for integral wavelengths. Since only 
+<m:math>
+  <m:mrow>
+
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+ is the varying entity, we need to find average of this quantity only. Its integration over integral wavelengths give a value of “1/2”. Hence, average rate of transmission of kinetic energy is :
+
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>K</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msub>
+      <m:mo>|</m:mo>
+      <m:mtext>avg</m:mtext>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>       
+</para>
+</section>
+</section>
+
+<section id="section-2">
+<title>Elastic potential energy  </title>
+<para id="element-19">
+
+The elastic potential energy of the string element results as string element is stretched during its oscillation. The extension or stretching is maximum at mean position. We can see in the figure that the length of string element of equal x-length “dx” is greater at mean position than at the extreme. As a matter of fact, the elongation depends on the slope of the curve. Greater the slope, greater is the elongation. The string has the least length when slope is zero. For illustration purpose, the curve is purposely drawn in such a manner that the elongation of string element at mean position is highlighted.
+</para>
+<para id="element-20"><figure id="fig-20"><title> Elongation in the string </title>
+<media id="idm8199408" alt=""><image src="../../media/et2a.gif" mime-type="image/gif"/></media>
+<caption> The string element stretched most at equilibrium position.</caption>
+</figure>
+
+
+</para>
+<para id="element-21">Greater extension of string element corresponds to greater elastic energy. As such, it is greatest at mean position and zero at extreme position. This deduction is contrary to the case of SHM in which potential energy is greatest at extreme positions and zero at mean position.
+
+
+</para>
+<para id="element-22">The elastic potential energy of an element of mass “dm” is given by the expression :
+
+
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>d</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mo>ⅆ</m:mo>
+              <m:mi>y</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mo>ⅆ</m:mo>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-24">
+where “v” is wave speed and “
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+” is the slope of waveform. The respective expressions for these quantities are :
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>ω</m:mi>
+      <m:mi>k</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+  
+
+
+</para>
+<para id="element-27">Putting in the expression of elastic potential energy,
+
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>d</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>μ</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+        <m:msup>
+          <m:mi>ω</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>A</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mi/>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>k</m:mi>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>ω</m:mi>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>x</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-29">
+This is the same expression as derived for kinetic energy. The elastic potential energy per unit length is :
+
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>L</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math> 
+</para>
+<section id="section-2a">
+<title>Rate of transmission of elastic potential energy  </title>
+
+<para id="element-32">The rate, at which elastic potential energy is transmitted, is obtained by dividing expression of kinetic energy by small time element, “dt”. This expression is same as that for kinetic energy.
+
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+       
+
+
+</para>
+<para id="element-34">and average rate of transmission of elastic potential energy is :
+
+
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msub>
+      <m:mo>|</m:mo>
+      <m:mtext>avg</m:mtext>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> 
+</para>
+</section>
+</section>
+
+
+<section id="section-3">
+<title>Mechanical energy  </title>
+
+<para id="element-36a">Since the expression of elastic potential energy is same as that of kinetic energy, we get mechanical energy expressions by multiplying expression of kinetic energy by “2”.  The mechanical energy associated with small string element, "dx", is :
+</para>
+<para id="element-37a"><m:math display="block">
+  <m:mrow>
+    <m:mi>d</m:mi>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>d</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>p</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>x</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+         
+  
+</para>
+
+<para id="element-36">Similarly, the mechanical energy per unit length is :
+</para>
+
+<para id="element-37">
+
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>L</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+         
+  
+</para>
+
+
+
+<section id="section-3b">
+<title>Rate of transmission of mechanical energy </title>
+<para id="element-42">Mechanical energy transmitted by the wave is sum of kinetic energy and elastic potential energy. The instantaneous rate of transmission of mechanical energy, therefore, is also obtained by multiplying instantaneous kinetic energy by “2”.:
+
+
+
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>E</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>K</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>         
+
+
+</para>
+<para id="element-44">Energy is greatest at the mean position and zero at the extreme positions of the particle in SHM. How can this happen? We need to interpret this fact in the light of transmission of energy from one section of the string to another. When element position changes in transverse direction away from mean position, it passes on the energy to the neighboring element. In doing so, the energy of string element is reduced, whereas the particle following it in the direction of wave motion gains energy (we consider no energy loss in the process). In more direct words, we can say that elements pass on the disturbance to the adjacent element. As the element moves to the extreme position, it completely exhausts its energy and acquires its undisturbed length.  However, it yields to next train of energy or disturbance as the free end of the string is moved again and again.
+</para>
+</section>
+<section id="section-3c">
+<title>Average power transmitted</title>
+<para id="element-45"> 
+
+The average power transmitted by wave is equal to time rate of transmission of mechanical energy over integral wavelengths. It is equal to :
+
+
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>P</m:mi>
+      <m:mtext>avg</m:mtext>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>E</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msub>
+      <m:mo>|</m:mo>
+      <m:mtext>avg</m:mtext>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+          
+ 
+</para>
+
+<para id="element-48">
+If mass of the string is given in terms of mass per unit volume, “ρ”, then we make appropriate change in the derivation. We exchange “μ” by “ρs” where “s” is the cross section of the string :
+
+ 
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>P</m:mi>
+      <m:mtext>avg</m:mtext>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>ρ</m:mi>
+    <m:mi>s</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+ 
+</para>
+</section>
+
+<section id="section-3a">
+<title>Energy density </title>
+<para id="element-40a">
+
+Since there is no loss of energy involved, it is expected that energy per unit length is uniform throughout the string. As much energy enters that much energy goes out for a given length of string. This average value along unit length of the string length is equal to the average rate at which energy is being transferred. 
+
+
+</para>
+<para id="element-38">The average mechanical energy per unit length is equal to integration of expression over integral wavelength : 
+
+
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>L</m:mi>
+    </m:msub>
+    <m:msub>
+      <m:mo>|</m:mo>
+      <m:mtext>avg</m:mtext>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+         
+
+
+</para>
+<para id="element-40">We have derived this expression for harmonic wave along a string. The concept, however, can be extended to two or three dimensional transverse waves. In the case of three dimensional transverse waves, we consider small volumetric element. We, then, use density,ρ, in place of mass per unit length, μ. The corresponding average energy per unit volume is referred as energy density (u):
+
+
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>ρ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+     
+</para>
+</section>
+<section id="section-3d">
+<title>Intensity</title>
+<para id="element-50">
+
+Intensity of wave (I) is defined as power transmitted per unit cross section area of the medium :
+
+
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ρ</m:mi>
+    <m:mi>s</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>A</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>s</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>ρ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-52">Intensity of wave (I) is a very useful concept for three dimensional waves radiating in all direction from the source. This quantity is usually referred in the context of light waves, which is transverse harmonic wave in three dimensions. Intensity is defined as the power transmitted per unit cross sectional area. Since light spreads uniformly all around, intensity is equal to power transmitted, divided by spherical surface drawn at that point with source at its center.
+</para>
+</section>
+
+</section>
+<section id="section-4">
+<title>Mechanics of energy transmission</title>
+
+<para id="element-53">
+
+Derivation of expression of energy transmission considering classical concept of power gives an insight into the manner energy is transmitted along the string. We have pointed out that every element pulls element ahead. In this fashion, a string element is worked out by the adjacent element. In this fashion, energy is transmitted from one element preceding to the element following it.
+</para>
+<para id="element-54">We consider a small string element as shown in the figure. Here, our objective is to evaluate the basic power equation as given :
+
+
+</para>
+<para id="element-54a"><figure id="fig-54a">
+<title> Work by tension </title>
+<media id="idp7149504" alt=""><image src="../../media/et3.gif" mime-type="image/gif"/></media>
+<caption> The string element is pulled by tension in the string.</caption>
+</figure>
+
+
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>P</m:mi>
+    <m:mo>=</m:mo>
+    <m:mtext>Force</m:mtext>
+    <m:mi>X</m:mi>
+    <m:mtext>velocity</m:mtext>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-56">Now, the string element is pulled by tension “F” as shown in the figure. The y-component of force in the direction of oscillation is :
+
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-58">Since angle “θ” is small,   sinθ = tanθ. But tanθ  is slope of the waveform at x=x. Therefore,
+
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>F</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>F</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-61">On the other hand, velocity of the small element is :
+
+</para>
+<para id="element-62"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>p</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-63">Putting these expressions, the power is given as :
+
+
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>P</m:mi>
+    <m:mo>=</m:mo>
+    <m:mtext>Force</m:mtext>
+    <m:mi>X</m:mi>
+    <m:mtext>velocity</m:mtext>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>P</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>F</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mo>ⅆ</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mo>ⅆ</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>X</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mo>ⅆ</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mo>ⅆ</m:mo>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>P</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>k</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>X</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>P</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-68">
+Using <m:math>
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>F</m:mi>
+            <m:mi>μ</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+
+
+and <m:math>
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>ω</m:mi>
+      <m:mi>k</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>,
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>P</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>ω</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>ω</m:mi>
+          <m:mi>v</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+
+
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>P</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-71">The average transmission of power is obtained by integrating the expression over integral wavelength,
+
+
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>P</m:mi>
+      <m:mtext>avg</m:mtext>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-73">This expression is same as the expression obtained earlier by adding kinetic and elastic potential energy.
+</para>
+</section>
+   
+  </content>
+  
+</document>

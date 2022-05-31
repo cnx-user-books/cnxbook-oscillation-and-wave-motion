@@ -1,0 +1,620 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Periodic motion</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>abf3e388-da3f-4b38-b9ae-f3c339aeaf1c</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Periodic phenomena or event repeats after certain interval like seasons, motion of planets, swings, pendulum etc. In this module, our focus, however, is the physical movement of particle or body, which shows a pattern recurring after certain fixed time interval. 
+</para>
+<para id="element-2">Representation of periodic motion has a basic pattern, which is repeated at regular intervals. What it means that if we know the basic form (building block), then we can describe the motion by following the pattern again and again.  
+</para>
+<section id="section-1">
+<title>Periodic attributes</title>
+<para id="element-3">A periodic motion can be described with respect to different quantities. A given periodic motion can have a host of attributes which may undergo periodic variations. Consider, for example, the case of a pendulum. We can choose any of the attributes like angle (θ), horizontal displacement (x), vertical displacement (y), kinetic energy (K), potential energy (U) etc. The values of these quantities undergo periodic alteration with respect to time. These attributes constitute periodic attributes of the periodic motion.
+</para>
+<para id="element-4">
+<figure id="fig-4">
+<title> Attributes of periodic motion </title>
+<media id="idm39376" alt=""><image src="../../media/pm1.gif" mime-type="image/gif"/></media>
+<caption> Attributes undergo periodic alteration with respect to time.</caption>
+</figure>
+</para>
+<para id="element-5">There are, however, other attributes, which may remain constant during periodic motion. If we consider pendulum executing simple harmonic motion (it is a particular periodic motion), then total mechanical energy of the system is constant and as such is independent of time. Hence, we need to pick appropriate attribute(s) to describe a periodic motion in accordance with problem situation in hand.
+</para>
+</section>
+<section id="section-2">
+<title>Description of periodic motion</title>
+<para id="element-6">We need a mathematical model to describe periodic motion. For this, we employ certain mathematical functions. The important feature of a periodic function is that its value is repeated after certain interval. We call this interval as “period”. In case, this period refers to time, then the same is called “time period”. Mathematically, a periodic function is defined as : 
+</para>
+<para id="element-7">
+<definition id="definition-1"><term> Periodic motion </term>
+<meaning id="idm10288160"> A function is said to be periodic if there exists a positive real number “T”, which is independent of “t”, such that <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>T</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>.  </meaning>
+</definition>
+</para>
+<para id="element-9">The least positive real number “T” (T&gt;0) is known as the fundamental period or simply the period of the function. The “T” is not a unique positive number. All integral multiple of “T” is also the period of the function. 
+</para>
+<para id="element-10">In the context of periodic function, an “aperiodic” function is one, which in not periodic. On the other hand, a function is said to be anti-periodic if  :
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>T</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-2a">
+<title>Example</title>
+<para id="element-12"><term>Problem 1: </term>  Prove that  "<m:math>
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>"  is a periodic function. Also find its period.
+</para>
+<para id="element-13"><term>Solution : </term>  
+</para>
+<para id="element-14">We know that :
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>when “n” is an integer.</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>when “n” is an even integer.</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">Thus, there exists T&gt;0 such that f(t+T) = f(t). Further “nπ” is independent of “t”.  Hence, “<m:math>
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>” is a periodic function. Its period is the least value, when n = 2 (first even positive integer),
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">The period of "sine" function is collaborated from the figure also. Note that we can not build a sine curve with a half cycle of period “π” (upper figure). We require a full cycle of “2π” to build a sine curve (lower figure). 
+</para>
+<para id="element-20"><figure id="fig-20">
+<title> Period of sine function </title>
+<media id="idm10039712" alt=""><image src="../../media/pm2a.gif" mime-type="image/gif"/></media>
+<caption> A full cycle of “2π” is used to build a sine curve (lower figure). </caption>
+</figure>
+</para>
+</section>
+</section>
+<section id="section-3">
+<title>Elements of periodic motion </title>
+<para id="element-21">Here, we describe certain important attributes of periodic motion, which are extensively used to describe a periodic motion. Though, it is expected that readers are already familiar with these terms, but we present the same for the sake of completeness. 
+</para>
+<para id="element-22"><term>1: Time period (T) : </term>It is the time after which a periodic motion (i.e. the pattern of motion) repeats itself. Its dimensional formula is [T] and unit is “second” in SI unit.
+</para>
+<para id="element-23"><term>2: Frequency (n, ν) : </term>It is the number of times the unit of periodic motion is repeated in unit time. In SI system, its unit is <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>, which is known as "Hertz" or "Hz" in short. An equivalent name is cycles per second (cps). Its dimensional formula is [<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>]. Time period and frequency are inverse to each other :
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>ν</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25"><term>3: Angular frequency (ω) : </term>It is the product of “2π” and frequency “ν”. In the case of rotational motion, angular frequency is equal to the angle (radian) described per unit time (second) and is equal to the magnitude of average angular velocity. 
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>ν</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">The unit of angular frequency is radian/s. In general, angular frequency and angular velocity are referred in equivalent manner. However, we should emphasize that we refer only the magnitude of angular velocity, when quoted to mean frequency. Also,
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">Since “2π” is a constant, the dimensional formula of angular frequency is same as that of frequency i.e. [<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>]. 
+</para>
+<para id="element-30"><term>4: Displacement (x or y) : </term>It is equal to change in the physical quantity in periodic motion. This physical quantity can be any thing like displacement, electric current, pressure etc. The unit of displacement obviously depends on the physical quantity under consideration.
+</para>
+</section>
+<section id="section-4">
+<title>Period of periodic motion </title>
+
+<para id="element-32">There are many different periodic functions. In our course, however, we shall be dealing mostly with trigonometric functions. Some important results about period are useful in finding period of a given function.
+</para>
+<para id="element-33">
+<term>1: </term>	All trigonometric functions are periodic.
+</para>
+<para id="element-34"><term>2: </term>		The periods of sine, cosine, secant and cosecant functions are “2π”, whereas periods of tangent and cotangent functions are “π”.
+</para>
+<para id="element-35"><term>3: </term>	If "k","a" and "b" are positive real values and “T” be the period of periodic function “f(x)”, then :
+</para>
+<para id="element-36">
+<list id="list-36" list-type="bulleted">
+<item> "kf(x)" is periodic with period “T”. </item>
+<item> "f(x+b)" is periodic with period “T”. </item>
+<item> "f(x) + a" is periodic with period “T”. </item>
+<item> "f(ax±b)" is periodic with a period “T/|a|”. </item>
+</list>
+</para>
+<para id="element-37">
+<term>4: </term>	 If “a” and “b” are non-zero real number and functions g(x) and h(x) are periodic functions having periods, “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” and “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” , then function <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>±</m:mo>
+    <m:mi>b</m:mi>
+    <m:mi>h</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math> is also a periodic function. The period of f(x) is LCM of “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” and “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>”.
+</para>
+<para id="element-38"><note id="idp222032">The fourth LCM rule is subject to certain restrictions. For complete detail read module titled “Periodic functions”.</note>
+</para>
+</section>
+<section id="section-5">
+<title>Examples</title>
+<section id="section-5a">
+<para id="element-39"><term>Problem 2: </term>  Find the time period of the motion, whose displacement is given by :
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41"><term>Solution : </term>   We know that period of cosine function is “2π”. We also know that if “T” is the period of “f(t)”, then period of the function "f(at±b)" is “T/|a|”. Following this rule, time period of the given cosine function is :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">Note that this expression is same that forms the basis of definition of angular frequency.
+</para>
+</section>
+<section id="section-5b">
+<para id="element-44"><term>Problem 3: </term>  Find the time period of the motion, whose displacement is given by :
+</para>
+<para id="element-45"><m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>5</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46"><term>Solution : </term>   We know that period of cosine function is “2π”. If “T” is the time period of f(t), then period of kf(t) is also “T”. Thus, coefficient “2” of trigonometric term has no effect on the period. We also know that if “T” is the period of “f(t)”, then period of the function "f(at±b)" is “T/|a|”. Following this rule, time period of the given cosine function is :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-5c">
+<para id="element-48"><term>Problem 4: </term>  Find the time period of the motion, whose displacement is given by :
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mn>3</m:mn>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50"><term>Solution : </term>   We know that period of sine function is “2π”. We also know that if “T” is the period of “f(t)”, then period of the function "f(at±b)" is “T/|a|”. Following this rule, time periods of individual sine functions are :
+</para>
+<para id="element-51"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mtext>Time period of "sin ωt"</m:mtext>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>T</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mtext>Time period of "sin 2ωt"</m:mtext>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>T</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mtext>Time period of "sin 3ωt"</m:mtext>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>T</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">Applying LCM rule, we can find the period of combination. Now, LCM of fraction is obtained as :
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mtext>LCM of numerators</m:mtext>
+      </m:mrow>
+      <m:mrow>
+        <m:mtext>HCF of denominators</m:mtext>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mtext>LCM of “2π”, “π” and “2π”</m:mtext>
+      </m:mrow>
+      <m:mrow>
+        <m:mtext>HCF of “ω”, “ω” and “3ω”</m:mtext>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">It is intuitive to understand that the frequencies of three functions are in the proportion 1:2:3. Their time periods are in inverse proportions 3:2:1. It means that by the time first function completes a cycle, second function completes two cycles and third function completes three cycles. This means that the period of first function encompasses the periods of remaining two functions. As such, time period of composite function is equal to time period of first function.
+</para>
+<para id="element-58"><figure id="fig-58">
+<title> Period of function </title>
+<media id="idp3468720" alt=""><image src="../../media/pm3a.gif" mime-type="image/gif"/></media>
+<caption> The period of first function encompasses the periods of remaining two functions.  </caption>
+</figure>
+</para>
+</section>
+</section>
+
+
+  </content>
+  
+</document>

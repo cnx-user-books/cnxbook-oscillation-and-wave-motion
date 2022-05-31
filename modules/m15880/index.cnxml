@@ -1,0 +1,589 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Forced oscillation</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>a1e11be0-24c0-463f-adec-d5cf21c166d9</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Simple harmonic motion is the simplest form of oscillation. The periodic attributes like frequency and time period are independent of disturbance that sets the periodic motion. The system oscillates at its natural frequency typical of the set up involving a restoring mechanism. Any system having moving part has inherent natural frequency or frequencies depending on the degree of freedom – numbers of possible oscillatory motions.
+</para>
+<para id="element-2">An oscillatory system, however, can be subjected to external force which may alter the nature of oscillation altogether. For example, a system capable of oscillation can be set to oscillate at an altogether different frequency other than natural frequency. Since we are investigating oscillatory motion, we shall study the impact of external force which is itself periodic. 
+</para>
+<para id="element-3">Consider, for example, the oscillation of spring – block system attached to a rigid support as shown in the figure. What if the rigid support itself oscillates (up and down) at a certain frequency? What would be the motion of the block? It would be mix up of two oscillations – (i) external oscillation of the rigid support and (ii) natural oscillation of the spring – block system. In the beginning, the block will oscillate in a varying manner, but soon it settles to oscillate with frequency at which the rigid support is made to oscillate. We can describe such forced oscillation by harmonic function :
+</para>
+<para id="element-4"><figure id="fig-4">
+<title> Forced oscillation </title>
+<media id="idm10219328" alt=""><image src="../../media/fs1.gif" mime-type="image/gif"/></media>
+<caption> The support of spring - block system in oscillation </caption>
+</figure>
+</para>
+<para id="element-5">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>ω</m:mi>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-6">where “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>ω</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>” is the angular frequency of external force being applied on the system. 
+</para>
+<section id="section-1">
+<title>Damping</title>
+<para id="element-8">Damping is a condition in which external force operates in such a manner that it impedes the motion of oscillatory body. As a matter of fact, all real time harmonic motions that we consider to be simple are actually damped SHM. We consider them SHM only as an approximation. The motion of a block hanging from a spring, for example, is not SHM as air works to oppose the motion – at every instant. As a consequence, the span (amplitude) of the motion keeps decreasing every cycle. Diminishing amplitude is the characterizing feature of damped oscillation. A typical displacement – time plot looks as shown here. 
+</para>
+<para id="element-9"><figure id="fig-9"><title> Damped oscillation </title>
+	<media id="idm10007120" alt=""><image src="../../media/fs4.gif" mime-type="image/gif"/></media>
+	<caption> The amplitude of oscillation diminishes with time.</caption>
+</figure>
+</para>
+<para id="element-10">The real time situation may be a bit complex to describe damped oscillation mathematically. Here, we consider one simplified situation in which air resistance can be considered to be proportional to the velocity of the oscillatory body. In such case, net force on the oscillating body is the resultant of restoring and damping force (with a negative sign) :
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mtext>net</m:mtext>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>b</m:mi>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">In terms of displacement derivatives :
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-16">For small damping constant “b”, the solution of this differential equation yields :
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mrow>
+          <m:mi>b</m:mi>
+          <m:mi>t</m:mi>
+        </m:mrow>
+        <m:mo>/</m:mo>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>m</m:mi>
+        </m:mrow>
+      </m:mrow>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>ω</m:mi>
+          <m:mi>b</m:mi>
+        </m:msub>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-18">The amplitude of the oscillation is a decreasing function in time, which tends to become zero :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>b</m:mi>
+            <m:mi>t</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>m</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-20">A damped oscillation thus dies down as the case with most of the oscillatory systems, which are not provided with external energy to compensate energy dissipated due to damping. On the other hand, the angular frequency of damped oscillation depends on additional factor of proportionality constant “b” :
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>ω</m:mi>
+      <m:mi>b</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mi>k</m:mi>
+              <m:mi>m</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mfrac>
+                <m:mi>b</m:mi>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>m</m:mi>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-22">Clearly, angular frequency of damped oscillation is lesser than corresponding angular frequency if damping is absent i.e. b = 0,
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>ω</m:mi>
+      <m:mi>b</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mi>k</m:mi>
+              <m:mi>m</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>ω</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+<section id="section-2">
+<title>Forced oscillation</title>
+<para id="element-25">It is clear from the discussion so far that most of artificial oscillation system tends to cease as damping is part of the natural set up. There can be various sources of damping force, but friction is one common source. There can be air resistance or resistance at the fixed hinge from which oscillating part is hung.
+</para>
+<para id="element-26">It is imperative that we supply appropriate energy (force) to compensate for the loss of energy due to damping. To meet this requirement, the oscillating system is subjected to oscillatory external force. The external force imparted is itself oscillatory and is, therefore, described by harmonic trigonometric function. Considering presence of damping, the force equation is :
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mtext>net</m:mtext>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>b</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:msub>
+      <m:mi>ω</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:msub>
+      <m:mi>ω</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-29">In terms of displacement derivatives :
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:msub>
+      <m:mi>ω</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-31">The solution of this differential equation yields :
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>ω</m:mi>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">As is evident from the expression, the system oscillates with the same frequency as that of external force. The amplitude of the oscillation is described in terms of frequency of external force (<m:math>
+		<m:mrow>
+			<m:msub>
+				<m:mi>ω</m:mi>
+				<m:mi>e</m:mi>
+			</m:msub>
+		</m:mrow>
+	</m:math>) and natural frequency (<m:math>
+		<m:mrow>
+			<m:msub>
+				<m:mi>ω</m:mi>
+				<m:mi>o</m:mi>
+			</m:msub>
+		</m:mrow>
+	</m:math>) as :
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>F</m:mi>
+          <m:mi>m</m:mi>
+        </m:mfrac>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mo>{</m:mo>
+            <m:mfenced>
+              <m:mrow>
+                <m:msubsup>
+                  <m:mi>ω</m:mi>
+                  <m:mrow>
+                    <m:mi>e</m:mi>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:msubsup>
+                <m:mo>−</m:mo>
+                <m:msubsup>
+                  <m:mi>ω</m:mi>
+                  <m:mrow>
+                    <m:mi>o</m:mi>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:msubsup>
+              </m:mrow>
+            </m:mfenced>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mfenced>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>b</m:mi>
+                      <m:msub>
+                        <m:mi>ω</m:mi>
+                        <m:mi>e</m:mi>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mi>m</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mfenced>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>}</m:mo>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-35">We can see that this expression is a constant for given set up. It means we can sustain a constant amplitude of the oscillation by applying external oscillatory force - even if damping force is present.
+</para>
+</section>
+<section id="section-3">
+<title>Resonance</title>
+<para id="element-37">The resonance is an interesting feature of oscillation. This phenomenon attracts interest as it makes possible to achieve extra-ordinary result (material failure of large structure) with small force! Resonance also explains why earthquake causes differentiating result to different structures – most devastating where resonance occurs! 
+</para>
+<para id="element-38">The condition for maximum amplitude is obtained by differentiating amplitude function with respect to applied frequency “<m:math>
+		<m:mrow>
+			<m:msub>
+				<m:mi>ω</m:mi>
+				<m:mi>e</m:mi>
+			</m:msub>
+		</m:mrow>
+	</m:math>” and setting the resulting expression equal to zero. This gives the resonance frequency as :
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>ω</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msubsup>
+              <m:mi>ω</m:mi>
+              <m:mrow>
+                <m:mi>o</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+            <m:mo>−</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>b</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>4</m:mn>
+                <m:msup>
+                  <m:mi>m</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-40">If damping is absent, then the amplitude function is maximum when applied frequency is equal to natural frequency. The amplitude is infinite in such case. However, damping is always present in actuality and as such resonance amplitude is finite. For small value of damping constant, the resonance frequency is close to natural frequency and resonance is sharply defined. As the damping increases, resonance amplitude is reduced. The plots of amplitude – frequency curves outline the features of resonance amplitude as shown in the figure. Note that resonance becomes flatter as damping force increases. 
+</para>
+<para id="element-41"><figure id="fig-41">
+<title> Resonance</title>
+<media id="idm6521168" alt=""><image src="../../media/fs2.gif" mime-type="image/gif"/></media>
+<caption> The amplitude is maximum at resonance.</caption>
+</figure>
+</para>
+<para id="element-42">Resonance underlines certain fundamental aspects of oscillatory system. First, it demonstrates that oscillation is a storing mechanism of energy. Second, it demonstrates that the energy can be supplemented in a constructive manner to increase the energy of the oscillating system to an extra-ordinary level. We can experience both these aspects easily by observing motion of swings in a nearby park. Ask a very strong adult to apply the most of his/her power to swing in one go and compare the result with that of a child who produces large swings with no such power. What is the difference? The child begins with small swing and synchronizes subsequent jerk with the oscillation. Each time the energy of the system is increased by the small amount associated with each jerk. The key, here, is the synchronization (timing of external force) and periodicity with which the jerk is applied to the swing.
+</para>
+<para id="element-43">Resonance is not specific to mechanical oscillatory system. The concept is equally applicable to electrical system and waves in general. Tunning of a particular radio station at a specific frequency is one of the most striking applications of this phenomenon. 
+</para>
+<para id="element-44">We should also realize that many vibrating systems like atomic arrangements, vibrating strings etc have multiple natural frequencies. This means that these systems can be subjected to resonance at more than one frequency.
+</para>
+<section id="section-4">
+<title>Tacoma bridge</title>
+<para id="element-46">Tacoma bridge was destroyed in 1940 just after four months of its opening. There are different theories explaining this incident. The central to these theories is resonance which could assimilate enough force from the gentle breeze and ultimately cause the material failure.
+</para>
+<para id="element-47">The most important design fault was the fact that bridge was reported to oscillate right from the beginning of its opening. What could not be perceived that oscillation could actually store energy in a constructive manner to such a devastating effect.
+</para>
+</section>
+</section>
+  </content>
+  
+</document>
